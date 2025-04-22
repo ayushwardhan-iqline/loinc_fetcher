@@ -1,0 +1,162 @@
+search_term,loinc,name,status,unit
+Serum Beta HCG,19180-9,Choriogonadotropin.beta subunit free [Units/volume] in Serum or Plasma,Found,IU/L
+"Plasma Glucose, PP (2 Hr.)",1521-4,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,Found,mg/dL
+BLEEDING TIME,11067-6,Bleeding time,Found,min
+MCV (Mean Cell Volume ),30428-7,MCV [Entitic mean volume] in Red Blood Cells,Found,fL
+Insulin Fasting,102029-6,Somatotropin [Mass/volume] in Serum or Plasma --Fasting post dose insulin IV,Found,mg/dL
+Fluid Protein,101649-2,Tau protein [Mass/volume] in Cerebral spinal fluid by Immunoassay,Found,mg/dL
+24 Hours Microalbumin,53530-2,Microalbumin [Mass/volume] in 24 hour Urine by Detection limit <= 1.0 mg/L,Found,mg/dL
+APTT -Test,50197-3,aPTT panel - Platelet poor plasma,Found,
+"Serum Iron",50190-8,Iron and Iron binding capacity panel - Serum or Plasma,Found,
+Haemoglobin (Hb%),726-0,Hemoglobin [Mass/volume] in Urine,Found,mg/dL
+CREATININE,39802-4,Creatinine in dialysis fluid/Creatinine in serum or plasma,Found,mol/mol
+"Plasma Glucose, (60 Min)",20438-8,Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose,Found,mg/dL
+"Serum Bilirubin, Indirect",15153-0,Deprecated Indirect bilirubin [Mass/volume] in Serum or Plasma,Found,mg/dL
+CLOTTING TIME,66747-7,Clotting time of Blood by Heparin protamine titration,Found,s
+Haemoglobin (Hb%),726-0,Hemoglobin [Mass/volume] in Urine,Found,mg/dL
+RDW,30384-2,Deprecated Erythrocyte distribution width [Entitic volume],Found,fL
+PCT,11832-3,Fetal Amniotic fluid space Maximum diameter largest pocket US,Found,cm
+Volume,8299-0,Volume Estimated,Found,cm3
+Serum AFP,96451-0,Alpha-1-Fetoprotein and Alpha-1-Fetoprotein.L3 panel - Serum or Plasma,Found,
+Serum Albumin,103577-3,Albumin [Mass/volume] in Serum by Immunoassay,Found,mg/dL
+Lymphocytes,17215-5,CV lymphocytes/Lymphocytes in Blood,Found,%
+Duration of Abstinence,10587-4,Sexual abstinence duration,Found,days
+Serum Lactate,14118-4,Lactate [Mass/volume] in Serum or Plasma,Found,mg/dL
+VLDL Cholesterol,50194-0,Cholesterol in IDL+Cholesterol in VLDL 3 [Mass/volume] in Serum or Plasma,Found,mg/dL
+HCT,104076-5,Basic metabolic with hemoglobin and hematocrit panel - Blood,Found,
+Serum Amylase,49927-7,Amylase in fluid/Amylase in serum,Found,Ratio
+Serum Urea,3091-6,Urea [Mass/volume] in Serum or Plasma,Found,mg/dL
+Total Iron Binding Capacity,50190-8,Iron and Iron binding capacity panel - Serum or Plasma,Found,
+Candida,88717-4,Candida sp identified in Isolate,Found,
+T. Cholesterol,94211-0,NPC1 gene+NPC2 gene deletion+duplication and full mutation analysis in Blood or Tissue by Molecular genetics method,Found,
+Glycosylated Hemoglobin (HbA1c),41995-2,Hemoglobin A1c [Mass/volume] in Blood,Found,g/dL
+Serum Free T4,24348-5,Free T4 and TSH panel - Serum or Plasma,Found,
+Basophils,75023-2,CD63 (Activated) Basophils/Basophils in Blood by Flow cytometry (FC),Found,%
+PDW,51631-0,Platelet distribution width [Ratio] in Blood,Found,%
+Serum Globulins,2336-6,Globulin [Mass/volume] in Serum,Found,g/dL
+S. Typhi 'O',31622-4,Salmonella typhi O D Ab [Units/volume] in Serum,Found,
+Serum A/G Ratio,87347-1,Senecavirus A IgG Ab/Positive control in Serum by Immunoassay,Found,ratio
+RBCs,90738-6,Erythrocytes.CD59 complete loss/Erythrocytes in Blood,Found,%
+Serum Cholesterol,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,Found,mg/dL
+Serum Potassium (K+),74257-7,HEDIS 2014-2016 Value Set - Serum Potassium,Found,
+Abnormal Cells,14966-6,CD20 Abnormal blood cells/Abnormal blood cells.total in Blood,Found,%
+Plasma Glucose Fasting,1558-6,Fasting glucose [Mass/volume] in Serum or Plasma,Found,mg/dL
+CHOL/HDL,96596-2,Cholesterol in HDL [Mass/volume] in DBS,Found,mg/dl
+ASO-TITRE ,22568-0,Streptolysin O Ab [Titer] in Serum,Found,titer
+Serum Creatinine,2160-0,Creatinine [Mass/volume] in Serum or Plasma,Found,mg/dL
+Abs. Neutrophils,30448-5,Neutrophils [#/volume] in Urine,Found,/uL
+Abs. Basophils,26444-0,Basophils [#/volume] in Blood,Found,10*3/mm3
+Glycosylated Hemoglobin (HbA1c),41995-2,Hemoglobin A1c [Mass/volume] in Blood,Found,g/dL
+Hg,63392-5,Herpes gestationis Ab [Titer] in Serum by Immunofluorescence,Found,titer
+Dengue-IgG Antibody ( Elisa ),23991-3,Dengue virus IgG Ab [Units/volume] in Serum by Immunoassay,Found,
+"Absolute Eosinophil Count",34912-6,Immature eosinophils [#/volume] in Blood,Found,10*9/L
+Transferrin Saturation,6796-7,Deprecated Transferrin saturation in Serum or Plasma,Found,%
+Abs. MID,51634-4,Reticulocytes.mid [#/volume] in Blood,Found,10*9/L
+Serum Copper,96463-5,Copper free/Total copper in Serum or Plasma by calculation,Found,%
+Blood Urea Nitrogen,12961-9,Urea nitrogen [Mass/volume] in Arterial blood,Found,mg/dL
+Lymphocytes,17215-5,CV lymphocytes/Lymphocytes in Blood,Found,%
+Serum Estradiol,13883-4,Estradiol (E2).bioavailable/Estradiol (E2).total in Serum or Plasma,Found,%
+Blood Urea Nitrogen ( BUN ),6299-2,Urea nitrogen [Mass/volume] in Blood,Found,mg/dL
+MPV,32711-4,Deprecated Platelet mean volume [Entitic volume] in Blood by Automated count,Found,fL
+MID,48825-4,"Respiratory allergen panel, US - Mid Atlantic states - Serum",Found,
+S. Typhi 'H',31621-6,Salmonella typhi H D Ab [Units/volume] in Serum,Found,
+ANTI-TPO,11574-1,Deprecated Thyroperoxidase Ab [Units/volume] in Serum,Found,IU/mL
+Dengue NS1 Antigen,101206-1,Dengue virus NS1 Ag [Units/volume] in Serum or Plasma by Immunoassay,Found,index value
+SGOT,14413-9,Aspartate aminotransferase [Enzymatic activity/volume] in Urine,Found,arb U/L
+Serum Homocysteine (Quantitative),44719-3,Methylmalonate/Homocysteine [Mass Ratio] in Serum or Plasma,Found,
+C-Reactive Protein,105126-7,"C reactive protein [Mass/volume] in Serum, Plasma or Blood",Found,mg/dL
+Transferrin Saturation,6796-7,Deprecated Transferrin saturation in Serum or Plasma,Found,%
+Serum Total Protein,34907-6,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Found,mg/dL
+Serum Sodium (Na+),96293-6,Sodium nitrite IgE Ab [Units/volume] in Serum,Found,kIU/L
+"Serum Calcium, Total",34907-6,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Found,mg/dL
+Serum T3,3055-1,Triiodothyronine (T3)/Triiodothyronine (T3) uptake index [Ratio] in Serum or Plasma,Found,
+Abs. Eosinophils,26449-9,Eosinophils [#/volume] in Blood,Found,/uL
+Serum TSH,24348-5,Free T4 and TSH panel - Serum or Plasma,Found,
+Serum Free PSA,14120-0,Deprecated Prostate Specific Ag Free/Prostate specific Ag.total in Serum or Plasma,Found,%
+TSH,24348-5,Free T4 and TSH panel - Serum or Plasma,Found,
+LDL/HDL,43396-1,Cholesterol non HDL [Mass/volume] in Serum or Plasma,Found,mg/dL
+SGPT,76625-3,Alanine aminotransferase [Enzymatic activity/volume] in Blood,Found,arb U/L
+Serum Lipase,3040-3,Lipase [Enzymatic activity/volume] in Serum or Plasma,Found,arb U/L
+Serum Triglycerides,2571-8,Triglyceride [Mass/volume] in Serum or Plasma,Found,mg/dL
+"Serum T4",14920-3,Thyroxine (T4) free [Moles/volume] in Serum or Plasma,Found,pmol/L
+Eosinophils,106917-8,Eosinophils/cells in Bronchoalveolar lavage,Found,%
+Serum Uric Acid,3084-1,Urate [Mass/volume] in Serum or Plasma,Found,mg/dL
+Serum CPK-MB,38482-6,Creatine kinase.MB [Presence] in Serum or Plasma,Found,
+test,49549-9,Referral lab test method,Found,
+Serum Testosterone,6891-6,Testosterone.free+weakly bound/Testosterone.total in Serum or Plasma,Found,%
+HDL Cholesterol,96596-2,Cholesterol in HDL [Mass/volume] in DBS,Found,mg/dl
+Serum Prolactin,78995-8,Prolactin monomeric/Prolactin in Serum or Plasma,Found,%
+RA Factor,56977-2,Rheumatoid arthritis nuclear Ab [Titer] in Serum by Immunofluorescence,Found,titer
+Dengue-IgM Antibody (Elisa),23992-1,Dengue virus IgM Ab [Units/volume] in Serum by Immunoassay,Found,
+Plasma Glucose Random,48984-9,Glucose [Mass/volume] in Serum or Plasma --10 minutes post dose glucose,Found,mg/dL
+Serum Phosphorus,103542-7,Tubular reabsorption of phosphorus/Glomerular filtration rate [Mass/volume] in Urine and Serum or Plasma,Found,mg/dl
+C-reactive Protein (CRP),105126-7,"C reactive protein [Mass/volume] in Serum, Plasma or Blood",Found,mg/dL
+"Serum Bilirubin, Direct",18264-2,Deprecated Direct bilirubin [Mass/volume] in Serum or Plasma,Found,mg/dL
+RBCs Count,798-9,Erythrocytes [#/volume] in Urine by Automated count,Found,/uL
+Platelet Count (Automated),74775-8,Platelets [#/volume] in Platelet rich plasma by Automated count,Found,10*3/uL
+Serum Alkaline Phosphatase,53524-5,Alkaline phosphatase.bile/Alkaline phosphatase.total in Serum or Plasma,Found,%
+Neutrophil,49714-9,Interleukin 8 [Mass/volume] in Body fluid,Found,pg/mL
+Abs. Lymphocytes,11130-2,B lymphocytes [#/volume] in Blood,Found,/uL
+Parasite,42807-8,Parasite identified in Isolate,Found,
+Blood Urea,20977-5,Urea [Mass/volume] in Blood,Found,mg/dL
+Serum LH,26823-5,Lutropin.beta subunit [Mass/volume] in Serum or Plasma,Found,pg/mL
+Monocytes,107238-8,CD169 monocytes/Monocytes in Blood,Found,%
+Serum Free T3,14928-6,Triiodothyronine (T3) Free [Moles/volume] in Serum or Plasma,Found,pmol/L
+Serum Vitamin B12,35201-3,Cobalamin (Vitamin B12) [Mass or Moles/volume] in Serum,Found,
+"Serum Calcium, Total",34907-6,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Found,mg/dL
+Microalbumin,57369-1,Microalbumin [Mass/volume] in 12 hour Urine,Found,mg/dL
+Epithelial Cells,105089-7,Epithelial cells.non-squamous [Presence] in Urine,Found,
+pH,106930-1,pH of Urine by pH-metry,Found,[pH]
+Serum PSA,53764-7,Prostate specific Ag panel - Serum or Plasma,Found,
+PT INR,72281-9,Days in therapeutic INR range/Days INR result determined [Ratio],Found,%
+LDL Cholesterol,55440-2,Cholesterol.in LDL (real) [Mass/volume] in Serum or Plasma by VAP,Found,mg/dL
+Band Cells,11103-9,Band form neutrophils/cells in Bone marrow by Manual count,Found,%
+"Serum Bilirubin, Total",1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,Found,mg/dL
+Reticulocyte Count,48706-6,Reticulocyte mean volume [Entitic volume] in Reticulocytes,Found,fL
+Serum Ferritin,14723-1,Ferritin [Moles/volume] in Serum or Plasma,Found,pmol/L
+Serum CEA,19166-8,Carcinoembryonic Ag [Units/volume] in Serum or Plasma,Found,IU/mL
+Total RBCs,58471-4,Erythrocytes.pitted/Erythrocytes.total in Red Blood Cells,Found,%
+Abs. Monocytes,26484-6,Monocytes [#/volume] in Blood,Found,10*3/mm3
+FSH,26874-8,Follitropin.beta subunit [Mass/volume] in Serum or Plasma,Found,pg/mL
+PCV / Hct.,Not Found,400 Client Error: Bad Request for url: https://loinc.regenstrief.org/searchapi/loincs?query=PCV+%2F+Hct.,HTTP Error 400,N/A
+Polymorphs,Not Found,N/A,Not Found in DB,N/A
+S. Paratyphi 'BH',Not Found,N/A,Not Found in DB,N/A
+"Salmonella Para typhi 'B','H' (BH)",Not Found,N/A,Not Found in DB,N/A
+Serum Ionic Calcium,Not Found,N/A,Not Found in DB,N/A
+Serum Acid Phosphatse (Total),Not Found,N/A,Not Found in DB,N/A
+"Malaria Parasite, Identification",Not Found,N/A,Not Found in DB,N/A
+Active Motile,Not Found,N/A,Not Found in DB,N/A
+Fasting Plasma Glucose (FPG),Not Found,N/A,Not Found in DB,N/A
+MCHC (Mear Corpus. Hb Conc.),Not Found,N/A,Not Found in DB,N/A
+Total Sperm Count,Not Found,N/A,Not Found in DB,N/A
+A1c-AREA (HbA1C),Not Found,N/A,Not Found in DB,N/A
+Total Leucocyte Count ( TLC ),Not Found,N/A,Not Found in DB,N/A
+"Dengue specific Antibodies, IgG",Not Found,N/A,Not Found in DB,N/A
+VDRL TEST,Not Found,N/A,Not Found in DB,N/A
+Serum CA-19.9,Not Found,N/A,Not Found in DB,N/A
+MCH (Mean Corpus. Haemoglobin),Not Found,N/A,Not Found in DB,N/A
+Widal Result,Not Found,N/A,Not Found in DB,N/A
+"Dengue specific Antibodies, IgM",Not Found,N/A,Not Found in DB,N/A
+PCV (Packed Cell Volume),Not Found,N/A,Not Found in DB,N/A
+Serum Bi-Carbonate (HCO3),Not Found,N/A,Not Found in DB,N/A
+Liquefication,Not Found,"N/A",Not Found in DB,N/A
+Salmonella Typhi 'H' (TH),Not Found,N/A,Not Found in DB,N/A
+Param 1,Not Found,N/A,Not Found in DB,N/A
+Foetal Hemoglobin,Not Found,N/A,Not Found in DB,N/A
+(PROTHROMBIN TIME) Test,Not Found,N/A,Not Found in DB,N/A
+CA- 15.3,Not Found,N/A,Not Found in DB,N/A
+ESR- 1 hr ,Not Found,N/A,Not Found in DB,N/A
+"CSF, Protien",Not Found,N/A,Not Found in DB,N/A
+"Salmonella Para typhi 'A','H' (AH)",Not Found,N/A,Not Found in DB,N/A
+Serum CK-NAC,Not Found,N/A,Not Found in DB,N/A
+Abs. Differential Leucocyte Count (DLC),Not Found,N/A,Not Found in DB,N/A
+Salmonella Typhi 'O' (TO),Not Found,N/A,Not Found in DB,N/A
+Postprandial Glucose (PPG),Not Found,N/A,Not Found in DB,N/A
+Pus Cells,Not Found,N/A,Not Found in DB,N/A
+RDWA,Not Found,N/A,Not Found in DB,N/A
+LPCR,Not Found,N/A,Not Found in DB,N/A
+S. Paratyphi 'AH',Not Found,N/A,Not Found in DB,N/A
+Serum Chlorides ,Not Found,N/A,Not Found in DB,N/A
+Differential Leucocyte Count (DLC),Not Found,N/A,Not Found in DB,N/A
+Test parameter,Not Found,N/A,Not Found in DB,N/A
+Urine Microalbumin Spot,Not Found,N/A,Not Found in DB,N/A

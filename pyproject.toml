@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"] # Standard build system requirement
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loinc-fetcher" # Choose a name for your project
+version = "0.1.0"
+description = "A script to fetch LOINC codes for tests and parameters."
+requires-python = ">=3.8" # Specify compatible Python versions
+dependencies = [
+    "requests"  # This is the only external library needed
+]

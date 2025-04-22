@@ -1,0 +1,25 @@
+search_term,loinc,name,status,unit
+URIC ACID,3086-6,Urate [Mass/volume] in Urine,Found,mg/dL
+RA FACTOR,56977-2,Rheumatoid arthritis nuclear Ab [Titer] in Serum by Immunofluorescence,Found,titer
+TOTAL PROTEIN,34907-6,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Found,mg/dL
+GLUCOSE - FASTING,63382-6,Fasting glucose [Mass/volume] in Urine,Found,mg/dL
+HEMOGLOBIN,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,Found,%
+AMYLASE,56776-8,Amylase S3+S4/Amylase.total in Serum or Plasma,Found,%
+GLUCOSE - PP,87422-2,Glucose [Mass/volume] in Blood --post meal,Found,mg/dl
+UREA,20977-5,Urea [Mass/volume] in Blood,Found,mg/dL
+SGPT,76625-3,Alanine aminotransferase [Enzymatic activity/volume] in Blood,Found,arb U/L
+SGOT,14413-9,Aspartate aminotransferase [Enzymatic activity/volume] in Urine,Found,arb U/L
+CRP,105126-7,"C reactive protein [Mass/volume] in Serum, Plasma or Blood",Found,mg/dL
+ASO,58713-9,Streptococcal DNAse B and ASO antibodies panel - Serum,Found,
+CHOLESTEROL,100733-5,Cholesterol in LDL [Mass/volume] in Serum by calculation --corrected for Cholesterol.in lipoprotein (little a),Found,mg/dL
+LDL,55440-2,Cholesterol.in LDL (real) [Mass/volume] in Serum or Plasma by VAP,Found,mg/dL
+HDL,3044-5,Triglyceride+ester in HDL [Mass/volume] in Serum or Plasma,Found,mg/dL
+LIPID PROFILE,105515-1,Total cholesterol from lipid profile,Found,
+CBC,58410-2,CBC panel - Blood by Automated count,Found,
+TOTAL CALCIUM,30527-6,Calcium [Mass/volume] in Total parental nutrition,Found,mg/dL
+TRIGLYCERIDES,3043-7,Triglyceride [Mass/volume] in Blood,Found,mg/dL
+CREATININE,39802-4,Creatinine in dialysis fluid/Creatinine in serum or plasma,Found,mol/mol
+LIVER FUNCTION TEST,Not Found,N/A,Not Found in DB,N/A
+ALKALINE PHOSPHATE,Not Found,N/A,Not Found in DB,N/A
+GLUCOSE - RBS,Not Found,N/A,Not Found in DB,N/A
+KIDNEY FUNCTION TEST,Not Found,N/A,Not Found in DB,N/A

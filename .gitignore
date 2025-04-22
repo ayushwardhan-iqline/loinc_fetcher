@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+.uv/
+
+# VS Code settings
+.vscode/
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Installer logs
+pip-log.txt
+
+# Environment files
+.env
+.env.*
+
+# Project metadata
+*.egg-info/
+.loinc_fetcher.egg-info/
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
