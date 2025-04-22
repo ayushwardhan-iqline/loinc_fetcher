@@ -2,22 +2,34 @@ import requests
 import csv
 import time
 import os
+import json
 
 # --- Configuration ---
-# IMPORTANT: Replace with your actual LOINC credentials
-# You can get these by registering for a free account at https://loinc.org/
-LOINC_USERNAME = os.environ['LOINC_USERNAME']
-LOINC_PASSWORD = os.environ['LOINC_PASSWORD']
+LOINC_USERNAME = os.getenv("LOINC_USERNAME")
+LOINC_PASSWORD = os.getenv("LOINC_PASSWORD")
 
-# Alternative: Use environment variables for better security
-# LOINC_USERNAME = os.getenv("LOINC_USERNAME", "YOUR_LOINC_USERNAME")
-# LOINC_PASSWORD = os.getenv("LOINC_PASSWORD", "YOUR_PASSWORD")
-
-OUTPUT_CSV_TESTS = "loinc_tests.csv"
-OUTPUT_CSV_PARAMETERS = "loinc_parameters.csv"
+OUTPUT_CSV_TESTS = "loinc_tests_detailed.csv"
+OUTPUT_CSV_PARAMETERS = "loinc_parameters_detailed.csv"
 API_ENDPOINT = "https://loinc.regenstrief.org/searchapi/loincs"
+HEADERS = {'User-Agent': 'LIMSMappingScript/1.2 (Contact: your-email@example.com)'}
+
+# --- Pre-filtering Configuration ---
+ENABLE_PRE_FILTERING = True # Master switch for all filters below
+
+# --- Filter Criteria (Only applied if ENABLE_PRE_FILTERING is True) ---
+# Keep results ONLY if they meet ALL enabled filter conditions
+FILTER_ON_STATUS = True
+FILTER_STATUS_KEEP = 'ACTIVE' # Status to keep (e.g., 'ACTIVE')
+
+FILTER_ON_CLASSTYPE = True
+FILTER_CLASSTYPE_KEEP = 1     # Class Type to keep (1=Lab)
+
+FILTER_ON_SCALE = True
+FILTER_SCALE_EXCLUDE = 'Doc' # Scale Type to EXCLUDE (e.g., 'Doc')
+# --- End Filter Criteria ---
 
 # --- Input Data ---
+# (Keep your test_names and parameter_names lists)
 test_names = [
     "LIVER FUNCTION TEST", "URIC ACID", "ALKALINE PHOSPHATE", "RA FACTOR",
     "TOTAL PROTEIN", "GLUCOSE - FASTING", "GLUCOSE - RBS", "HEMOGLOBIN",
@@ -73,119 +85,142 @@ parameter_names = [
 
 # --- Helper Function to Fetch LOINC Codes ---
 def fetch_loinc_codes(terms_list, auth_credentials, list_name="terms"):
-    """
-    Fetches LOINC codes for a given list of terms using the LOINC API.
+    all_results = []
+    processed_terms = set()
+    total_unique_terms = len(set(terms_list))
+    current_term_index = 0
 
-    Args:
-        terms_list (list): A list of strings (test or parameter names).
-        auth_credentials (tuple): A tuple containing (LOINC_USERNAME, LOINC_PASSWORD).
-        list_name (str): A descriptive name for the list being processed (for logging).
+    print(f"\n--- Starting LOINC search for {total_unique_terms} unique {list_name} ---")
+    if ENABLE_PRE_FILTERING:
+        filter_desc = []
+        if FILTER_ON_STATUS: filter_desc.append(f"STATUS='{FILTER_STATUS_KEEP}'")
+        if FILTER_ON_CLASSTYPE: filter_desc.append(f"CLASSTYPE={FILTER_CLASSTYPE_KEEP}")
+        if FILTER_ON_SCALE: filter_desc.append(f"SCALE_TYP!='{FILTER_SCALE_EXCLUDE}'")
+        print(f"--- Pre-filtering ENABLED: Keeping results WHERE {' AND '.join(filter_desc)} ---")
+    else:
+        print("--- Pre-filtering DISABLED ---")
 
-    Returns:
-        list: A list of dictionaries, each containing the search term,
-              found LOINC code, name, and status.
-    """
-    results = []
-    total_terms = len(terms_list)
-    print(f"\n--- Starting LOINC search for {total_terms} {list_name} ---")
+    for term in terms_list:
+        if term in processed_terms:
+           print(f"[Skipping duplicate input term: {term}]")
+           continue
 
-    for i, term in enumerate(terms_list):
-        # Deduping within the list being processed (optional but efficient)
-        # If you absolutely need duplicates processed, remove this check
-        # if term in [r['search_term'] for r in results]:
-        #      print(f"[{i+1}/{total_terms}] Skipping duplicate term: {term}")
-        #      # Optionally copy the result from the first occurrence
-        #      first_occurrence = next((r for r in results if r['search_term'] == term), None)
-        #      if first_occurrence:
-        #          results.append(first_occurrence.copy()) # Append a copy
-        #      continue # Move to next term
+        processed_terms.add(term)
+        current_term_index += 1
+        print(f"[{current_term_index}/{total_unique_terms}] Searching for: '{term}'")
+        results_found_for_term = 0
+        results_kept_for_term = 0
 
-        print(f"[{i+1}/{total_terms}] Searching for: {term}")
-        result_entry = {
-            "search_term": term,
-            "loinc": "Not Found",
-            "name": "N/A",
-            "status": "Not Found",
-            "unit": "N/A"
-        }
         try:
             response = requests.get(
-                API_ENDPOINT,
-                params={"query": term},
-                auth=auth_credentials,
-                timeout=30 # Add a timeout
+                API_ENDPOINT, params={"query": term}, auth=auth_credentials,
+                headers=HEADERS, timeout=45
             )
-            response.raise_for_status() # Check for HTTP errors
-
+            response.raise_for_status()
             data = response.json()
-            # print(data)
             loinc_results = data.get("Results", [])
-            preferred_result = None
+            results_found_for_term = len(loinc_results)
 
-            # Check if any result has EXAMPLE_UNITS == "mg/dL"
-            for this_sample in loinc_results:
-                units = this_sample.get("EXAMPLE_UNITS")
-                if isinstance(units, str) and units.strip().lower() == "mg/dl":
-                    preferred_result = this_sample
-                    break
-
-            # If none found with mg/dL, fall back to the first result
-            if not preferred_result and loinc_results:
-                preferred_result = loinc_results[0]
-            
-            if preferred_result:
-                top_hit = preferred_result
-                result_entry["loinc"] = top_hit.get("LOINC_NUM", "Error Parsing LOINC")
-                result_entry["name"] = top_hit.get("LONG_COMMON_NAME", "Error Parsing Name")
-                result_entry["unit"] = top_hit.get("EXAMPLE_UNITS", "Error Parsing Units")
-                result_entry["status"] = "Found"
-                print(f"  -> Found: {result_entry['loinc']} - {result_entry['name']}")
+            if not loinc_results:
+                print(f"  -> No LOINC results found.")
+                # Add placeholder only if filtering is off
+                if not ENABLE_PRE_FILTERING:
+                     all_results.append({
+                        "search_term": term, "match_rank": 0, "loinc": "Not Found",
+                        "long_common_name": "N/A", "status": "Not Found in DB", "class_type": "N/A",
+                        "component": "N/A", "property": "N/A", "time_aspect": "N/A",
+                        "system": "N/A", "scale_type": "N/A", "method_type": "N/A",
+                        "example_units": "N/A", "class": "N/A", "short_name": "N/A",
+                        "loinc_url": "N/A"
+                    })
             else:
-                print(f"  -> Not Found in LOINC database.")
-                result_entry["status"] = "Not Found in DB"
+                for i, hit in enumerate(loinc_results):
+                    loinc_num = hit.get("LOINC_NUM", "Parse Error")
+                    loinc_url = f"https://loinc.org/{loinc_num}" if loinc_num != "Parse Error" else "N/A"
+                    scale_type = hit.get("SCALE_TYP", "N/A") # Get scale type
 
+                    result_entry = {
+                        "search_term": term, "match_rank": i + 1, "loinc": loinc_num,
+                        "long_common_name": hit.get("LONG_COMMON_NAME", "N/A"),
+                        "status": hit.get("STATUS", "N/A"),
+                        "class_type": hit.get("CLASSTYPE", None),
+                        "component": hit.get("COMPONENT", "N/A"),
+                        "property": hit.get("PROPERTY", "N/A"),
+                        "time_aspect": hit.get("TIME_ASPCT", "N/A"),
+                        "system": hit.get("SYSTEM", "N/A"),
+                        "scale_type": scale_type, # Store the scale type
+                        "method_type": hit.get("METHOD_TYP", "N/A"),
+                        "example_units": hit.get("EXAMPLE_UNITS", "N/A"),
+                        "class": hit.get("CLASS", "N/A"),
+                        "short_name": hit.get("SHORTNAME", "N/A"),
+                        "loinc_url": loinc_url
+                    }
+
+                    # --- Apply Pre-filtering ---
+                    passes_filter = True
+                    if ENABLE_PRE_FILTERING:
+                        # Check Status filter
+                        if FILTER_ON_STATUS and result_entry['status'] != FILTER_STATUS_KEEP:
+                            passes_filter = False
+                        # Check Class Type filter (only if Status passed)
+                        if passes_filter and FILTER_ON_CLASSTYPE and result_entry['class_type'] != FILTER_CLASSTYPE_KEEP:
+                            passes_filter = False
+                        # Check Scale Type Exclude filter (only if previous passed)
+                        if passes_filter and FILTER_ON_SCALE and result_entry['scale_type'] == FILTER_SCALE_EXCLUDE:
+                            passes_filter = False
+
+                    if passes_filter:
+                        all_results.append(result_entry)
+                        results_kept_for_term += 1
+                    # --- End Pre-filtering ---
+
+                print(f"  -> Found {results_found_for_term} results. Kept {results_kept_for_term} after filtering.")
+
+        # (Keep the existing except blocks)
         except requests.exceptions.HTTPError as http_err:
-            print(f"  -> HTTP error occurred: {http_err} (Status code: {response.status_code})")
-            result_entry["status"] = f"HTTP Error {response.status_code}"
-            result_entry["name"] = str(http_err)
-        except requests.exceptions.ConnectionError as conn_err:
-            print(f"  -> Connection error occurred: {conn_err}")
-            result_entry["status"] = "Connection Error"
-            result_entry["name"] = str(conn_err)
-        except requests.exceptions.Timeout as timeout_err:
-            print(f"  -> Timeout error occurred: {timeout_err}")
-            result_entry["status"] = "Timeout Error"
-            result_entry["name"] = str(timeout_err)
-        except requests.exceptions.RequestException as req_err:
-            print(f"  -> An ambiguous request error occurred: {req_err}")
-            result_entry["status"] = "Request Error"
-            result_entry["name"] = str(req_err)
+             print(f"  -> HTTP error: {http_err} (Status: {response.status_code})")
+             # Simplified error row creation
+             error_row = {"search_term": term, "match_rank": 0, "loinc": f"HTTP Error {response.status_code}", "long_common_name": str(http_err), "status": "Error", "loinc_url": "Error"}
+             all_results.append({**{k: "Error" for k in fieldnames if k not in error_row}, **error_row}) # Fill remaining fields
+        except requests.exceptions.RequestException as req_err: # Catch other request errors (conn, timeout)
+             print(f"  -> Request error: {req_err}")
+             error_row = {"search_term": term, "match_rank": 0, "loinc": "Request Error", "long_common_name": str(req_err), "status": "Error", "loinc_url": "Error"}
+             all_results.append({**{k: "Error" for k in fieldnames if k not in error_row}, **error_row})
+        except json.JSONDecodeError as json_err:
+             print(f"  -> JSON decoding error: {json_err}")
+             error_row = {"search_term": term, "match_rank": 0, "loinc": "JSON Error", "long_common_name": str(json_err), "status": "Error", "loinc_url": "Error"}
+             all_results.append({**{k: "Error" for k in fieldnames if k not in error_row}, **error_row})
         except Exception as e:
-            print(f"  -> An unexpected error occurred: {e}")
-            result_entry["status"] = "Unexpected Error"
-            result_entry["name"] = str(e)
+            print(f"  -> Unexpected error: {e}")
+            error_row = {"search_term": term, "match_rank": 0, "loinc": "Unexpected Error", "long_common_name": str(e), "status": "Error", "loinc_url": "Error"}
+            # Define fieldnames here or pass it to make this work robustly
+            fieldnames_for_error = ["search_term", "match_rank", "loinc", "loinc_url", "status", "long_common_name", "short_name", "class_type", "component", "property", "time_aspect", "system", "scale_type", "method_type", "example_units", "class"]
+            all_results.append({**{k: "Error" for k in fieldnames_for_error if k not in error_row}, **error_row})
 
-        results.append(result_entry)
-        # Optional: Add a small delay
-        # time.sleep(0.1)
+        time.sleep(0.1)
 
     print(f"--- Finished LOINC search for {list_name} ---")
-    return results
+    return all_results
 
 # --- Helper Function to Save Results to CSV ---
+# Define fieldnames globally or pass it to the function if needed for error handling above
+fieldnames = [
+    "search_term", "match_rank", "loinc", "loinc_url", "status",
+    "long_common_name", "short_name", "class_type", "component",
+    "property", "time_aspect", "system", "scale_type", "method_type",
+    "example_units", "class",
+]
+
 def save_to_csv(results_list, filename):
     """Saves a list of result dictionaries to a CSV file."""
     if not results_list:
-        print(f"No results to save for {filename}.")
+        print(f"No results to save for {filename} (possibly due to filtering).")
         return
 
-    print(f"Saving results to {filename}...")
+    print(f"Saving {len(results_list)} results/rows to {filename}...")
     try:
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-            # Define the header row based on the keys of the first dictionary
-            fieldnames = results_list[0].keys()
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, extrasaction='ignore')
             writer.writeheader()
             writer.writerows(results_list)
         print(f"Successfully saved results to {filename}.")
@@ -194,21 +229,23 @@ def save_to_csv(results_list, filename):
     except Exception as e:
         print(f"An unexpected error occurred during CSV writing for {filename}: {e}")
 
+
 # --- Main Execution ---
 if __name__ == "__main__":
-    # Check if credentials are placeholders
-    if LOINC_USERNAME == "YOUR_LOINC_USERNAME" or LOINC_PASSWORD == "YOUR_PASSWORD":
-        print("ERROR: Please replace placeholder LOINC credentials in the script.")
-        exit() # Stop execution if credentials are not set
+    if not LOINC_USERNAME or not LOINC_PASSWORD:
+        print("ERROR: LOINC_USERNAME and LOINC_PASSWORD environment variables must be set.")
+        exit(1)
 
     loinc_auth = (LOINC_USERNAME, LOINC_PASSWORD)
+    start_time = time.time()
 
-    # --- Process Test Names ---
     test_results = fetch_loinc_codes(test_names, loinc_auth, list_name="Test Names")
     save_to_csv(test_results, OUTPUT_CSV_TESTS)
 
-    # --- Process Parameter Names ---
     parameter_results = fetch_loinc_codes(parameter_names, loinc_auth, list_name="Parameter Names")
     save_to_csv(parameter_results, OUTPUT_CSV_PARAMETERS)
 
-    print("\nScript finished.")
+    end_time = time.time()
+    total_results = len(test_results) + len(parameter_results)
+    print(f"\nScript finished in {end_time - start_time:.2f} seconds.")
+    print(f"Total rows written to CSV files: {total_results}")

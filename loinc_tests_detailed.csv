@@ -1,0 +1,609 @@
+search_term,match_rank,loinc,loinc_url,status,long_common_name,short_name,class_type,component,property,time_aspect,system,scale_type,method_type,example_units,class
+URIC ACID,1,14934-4,https://loinc.org/14934-4,ACTIVE,Urate [Moles/volume] in Urine,Urate Ur-sCnc,1,Urate,SCnc,Pt,Urine,Qn,,umol/L,CHEM
+URIC ACID,2,44865-4,https://loinc.org/44865-4,ACTIVE,Ammonium urate [Presence] in Stone,Amm Urate Stone Ql,1,Ammonium urate,PrThr,Pt,Calculus,Ord,,,CHEM
+URIC ACID,3,3086-6,https://loinc.org/3086-6,ACTIVE,Urate [Mass/volume] in Urine,Urate Ur-mCnc,1,Urate,MCnc,Pt,Urine,Qn,,mg/dL,CHEM
+URIC ACID,4,57387-3,https://loinc.org/57387-3,ACTIVE,Urate [Mass/time] in 12 hour Urine,Urate 12h Ur-mRate,1,Urate,MRat,12H,Urine,Qn,,mg/12 H,CHEM
+URIC ACID,5,58990-3,https://loinc.org/58990-3,ACTIVE,Urate [Mass/time] in 18 hour Urine,Urate 18h Ur-mRate,1,Urate,MRat,18H,Urine,Qn,,mg/18 H,CHEM
+URIC ACID,7,101934-8,https://loinc.org/101934-8,ACTIVE,Urate crystals [Energy Difference] in Urine,Urate Cry EngDiff Ur,1,Urate Crystals,EngDiff,Pt,Urine,Qn,,kJ/mol,CHEM
+URIC ACID,8,57332-9,https://loinc.org/57332-9,ACTIVE,Urate [Mass/volume] in 12 hour Urine,Urate 12h Ur-mCnc,1,Urate,MCnc,12H,Urine,Qn,,mg/dL,CHEM
+URIC ACID,9,98981-4,https://loinc.org/98981-4,ACTIVE,Urate [Mass/volume] in Blood,Urate Bld-mCnc,1,Urate,MCnc,Pt,Bld,Qn,,mg/dL,CHEM
+URIC ACID,10,18379-8,https://loinc.org/18379-8,ACTIVE,Urate [Mass/time] in 6 hour Urine,Urate 6h Ur-mRate,1,Urate,MRat,6H,Urine,Qn,,mg/6 H,CHEM
+URIC ACID,11,74979-6,https://loinc.org/74979-6,ACTIVE,Urate [Moles/volume] in Bronchoalveolar lavage,Urate BAL-sCnc,1,Urate,SCnc,Pt,BAL,Qn,,umol/L,CHEM
+URIC ACID,12,32555-5,https://loinc.org/32555-5,ACTIVE,Urate [Molar amount] in Urine collected for unspecified duration,Urate ?Tm sub Ur Qn,1,Urate,Sub,XXX,Urine,Qn,,mmol,CHEM
+URIC ACID,13,38191-3,https://loinc.org/38191-3,ACTIVE,Ammonium urate/Total in Stone,Amm Urate MFr Stone,1,Ammonium urate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+URIC ACID,14,21587-1,https://loinc.org/21587-1,ACTIVE,Urate [Mass/volume] in 24 hour Urine,Urate 24h Ur-mCnc,1,Urate,MCnc,24H,Urine,Qn,,mg/dL; mg/L,CHEM
+URIC ACID,15,60469-4,https://loinc.org/60469-4,ACTIVE,Urate [Mass/volume] in Pleural fluid,Urate Plr-mCnc,1,Urate,MCnc,Pt,Plr fld,Qn,,mg/dL,CHEM
+URIC ACID,16,14932-8,https://loinc.org/14932-8,ACTIVE,Urate [Presence] in Stone,Urate Stone Ql,1,Urate,PrThr,Pt,Calculus,Ord,,,CHEM
+URIC ACID,17,14935-1,https://loinc.org/14935-1,ACTIVE,Urate [Moles/time] in 24 hour Urine,Urate 24h Ur-sRate,1,Urate,SRat,24H,Urine,Qn,,mmol/24 H,CHEM
+URIC ACID,18,57386-5,https://loinc.org/57386-5,ACTIVE,Urate [Mass/volume] in 2 hour Urine,Urate 2h Ur-mCnc,1,Urate,MCnc,2H,Urine,Qn,,mg/dL,CHEM
+URIC ACID,19,17755-0,https://loinc.org/17755-0,ACTIVE,Urate [Mass/time] in 2 hour Urine,Urate 2h Ur-mRate,1,Urate,MRat,2H,Urine,Qn,,mg/2 H,CHEM
+URIC ACID,20,17756-8,https://loinc.org/17756-8,ACTIVE,Urate [Mass/time] in 4 hour Urine,Urate 4h Ur-mRate,1,Urate,MRat,4H,Urine,Qn,,mg/4 H,CHEM
+URIC ACID,21,25997-8,https://loinc.org/25997-8,ACTIVE,Urate [Moles/volume] in 24 hour Urine,Urate 24h Ur-sCnc,1,Urate,SCnc,24H,Urine,Qn,,mmol/L,CHEM
+URIC ACID,22,49003-7,https://loinc.org/49003-7,ACTIVE,Urate [Mass/volume] in Peritoneal dialysis fluid,Urate DiafP-mCnc,1,Urate,MCnc,Pt,Dial fld prt,Qn,,mg/dL,CHEM
+URIC ACID,23,3084-1,https://loinc.org/3084-1,ACTIVE,Urate [Mass/volume] in Serum or Plasma,Urate SerPl-mCnc,1,Urate,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+URIC ACID,24,3087-4,https://loinc.org/3087-4,ACTIVE,Urate [Mass/time] in 24 hour Urine,Urate 24h Ur-mRate,1,Urate,MRat,24H,Urine,Qn,,g/24 H,CHEM
+URIC ACID,26,42678-3,https://loinc.org/42678-3,ACTIVE,Urate [Saturation Fraction] in 24 hour Urine,Urate 24h SatFr Ur,1,Urate,SatFr,24H,Urine,Qn,,,CHEM
+URIC ACID,27,14933-6,https://loinc.org/14933-6,ACTIVE,Urate [Moles/volume] in Serum or Plasma,Urate SerPl-sCnc,1,Urate,SCnc,Pt,Ser/Plas,Qn,,umol/L,CHEM
+URIC ACID,28,32343-6,https://loinc.org/32343-6,ACTIVE,Urate [Moles/volume] in Specimen,Urate Spec-sCnc,1,Urate,SCnc,Pt,XXX,Qn,,mmol/L,CHEM
+URIC ACID,29,101735-9,https://loinc.org/101735-9,ACTIVE,Urate crystals [Energy Difference] in 24 hour Urine,Urate Cry 24h EngDiff Ur,1,Urate crystals,EngDiff,24H,Urine,Qn,,kJ/mol,CHEM
+URIC ACID,30,3083-3,https://loinc.org/3083-3,ACTIVE,Urate [Mass/volume] in Amniotic fluid,Urate Amn-mCnc,1,Urate,MCnc,Pt,Amnio fld,Qn,,mg/dL,CHEM
+URIC ACID,31,3089-0,https://loinc.org/3089-0,ACTIVE,Urate/Creatinine [Mass Ratio] in Urine,Urate/Creat Ur,1,Urate/Creatinine,MRto,Pt,Urine,Qn,,mg/g creatinine,CHEM
+URIC ACID,32,34385-5,https://loinc.org/34385-5,ACTIVE,Urate/Creatinine [Molar ratio] in Urine,Urate/Creat Ur-sRto,1,Urate/Creatinine,SRto,Pt,Urine,Qn,,mmol/mol creatinine,CHEM
+URIC ACID,33,32149-7,https://loinc.org/32149-7,ACTIVE,Urate/Total in Stone,Urate MFr Stone,1,Urate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+URIC ACID,34,53612-8,https://loinc.org/53612-8,ACTIVE,Urate [Mass/volume] in Body fluid,Urate Fld-mCnc,1,Urate,MCnc,Pt,Body fld,Qn,,mg/dL,CHEM
+URIC ACID,35,13902-2,https://loinc.org/13902-2,ACTIVE,Urate [Mass/volume] in Cerebral spinal fluid,Urate CSF-mCnc,1,Urate,MCnc,Pt,CSF,Qn,,mg/dL,CHEM
+URIC ACID,37,54436-1,https://loinc.org/54436-1,ACTIVE,Urate dihydrate/Total in Stone,Urate dihyd MFr Stone,1,Urate dihydrate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+URIC ACID,38,25548-9,https://loinc.org/25548-9,ACTIVE,Urate [Moles/volume] in Body fluid,Urate Fld-sCnc,1,Urate,SCnc,Pt,Body fld,Qn,,umol/L,CHEM
+URIC ACID,39,75139-6,https://loinc.org/75139-6,ACTIVE,Urate [Moles/volume] in Cerebral spinal fluid,Urate CSF-sCnc,1,Urate,SCnc,Pt,CSF,Qn,,nmol/L,CHEM
+URIC ACID,40,59839-1,https://loinc.org/59839-1,ACTIVE,Urate crystals [Presence] in Tissue by Light microscopy,Urate Cry Tiss Ql Micro,1,Urate crystals,PrThr,Pt,Tiss,Ord,Microscopy.light,,PATH
+URIC ACID,41,101827-4,https://loinc.org/101827-4,ACTIVE,Urate crystals [Saturation Fraction] in 24 hour Urine,Urate cry 24h SatFr Ur,1,Urate crystals,SatFr,24H,Urine,Qn,,kJ/mol,CHEM
+URIC ACID,42,101935-5,https://loinc.org/101935-5,ACTIVE,Sodium urate crystals [Energy Difference] in Urine,Na Urate Cry EngDiff Ur,1,Sodium Urate Crystals,EngDiff,Pt,Urine,Qn,,kJ/mol,CHEM
+URIC ACID,44,3085-8,https://loinc.org/3085-8,ACTIVE,Urate [Mass/volume] in Synovial fluid,Urate Snv-mCnc,1,Urate,MCnc,Pt,Synv fld,Qn,,mg/dL,CHEM
+URIC ACID,45,39788-5,https://loinc.org/39788-5,ACTIVE,Urate [Moles/volume] in Synovial fluid,Urate Snv-sCnc,1,Urate,SCnc,Pt,Synv fld,Qn,,umol/L,CHEM
+URIC ACID,46,13820-6,https://loinc.org/13820-6,ACTIVE,Urate/Creatinine [Mass Ratio] in 24 hour Urine,Urate/Creat 24h Ur,1,Urate/Creatinine,MRto,24H,Urine,Qn,,mg/g creatinine,CHEM
+URIC ACID,47,75642-9,https://loinc.org/75642-9,ACTIVE,Urate/Creatinine [Molar ratio] in 24 hour Urine,Urate/Creat 24h Ur-sRto,1,Urate/Creatinine,SRto,24H,Urine,Qn,,mmol/mol creatinine,CHEM
+URIC ACID,48,16258-6,https://loinc.org/16258-6,ACTIVE,Ammonium urate crystals [Presence] in Stone by Infrared spectroscopy,Amm Urate Cry Stone Ql IR,1,Ammonium urate crystals,PrThr,Pt,Calculus,Ord,Infrared spectroscopy,,CHEM
+URIC ACID,49,33239-5,https://loinc.org/33239-5,ACTIVE,Ammonium urate crystals [Presence] in Urine by Computer assisted method,Amm Urate Cry Ur Ql Comp Assist,1,Ammonium urate crystals,PrThr,Pt,Urine,Ord,Computer assisted,,UA
+URIC ACID,50,43423-3,https://loinc.org/43423-3,ACTIVE,Sodium urate [Saturation Fraction] in 24 hour Urine,Na Urate 24h SatFr Ur,1,Sodium urate,SatFr,24H,Urine,Qn,,,CHEM
+RA FACTOR,1,56977-2,https://loinc.org/56977-2,ACTIVE,Rheumatoid arthritis nuclear Ab [Titer] in Serum by Immunofluorescence,RA Nuc Ab Titr Ser IF,1,Rheumatoid arthritis nuclear Ab,Titr,Pt,Ser,SemiQn,IF,titer,SERO
+TOTAL PROTEIN,1,47597-0,https://loinc.org/47597-0,ACTIVE,Calcium [Moles/volume] corrected for total protein in Blood,Calcium TP cor Bld-sCnc,1,Calcium^^corrected for total protein,SCnc,Pt,Bld,Qn,,mmol/L,CHEM
+TOTAL PROTEIN,2,34907-6,https://loinc.org/34907-6,ACTIVE,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Calcium TP cor SerPl-mCnc,1,Calcium^^corrected for total protein,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TOTAL PROTEIN,4,18281-6,https://loinc.org/18281-6,ACTIVE,Calcium [Moles/volume] corrected for total protein in Serum or Plasma,Calcium TP cor SerPl-sCnc,1,Calcium^^corrected for total protein,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TOTAL PROTEIN,5,99599-3,https://loinc.org/99599-3,ACTIVE,Protein.monoclonal band 1/Protein.total in Urine by Electrophoresis,M Protein 1 MFr Ur Elph,1,Protein.monoclonal band 1/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,6,59800-3,https://loinc.org/59800-3,ACTIVE,Protein.monoclonal band 2/Protein.total in Urine by Electrophoresis,M Protein 2 MFr Ur Elph,1,Protein.monoclonal band 2/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,7,59801-1,https://loinc.org/59801-1,ACTIVE,Protein.monoclonal band 3/Protein.total in Urine by Electrophoresis,M Protein 3 MFr Ur Elph,1,Protein.monoclonal band 3/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,8,59802-9,https://loinc.org/59802-9,ACTIVE,Protein.monoclonal band 4/Protein.total in Urine by Electrophoresis,M Protein 4 MFr Ur Elph,1,Protein.monoclonal band 4/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,9,56766-9,https://loinc.org/56766-9,ACTIVE,Protein.monoclonal band 1/Protein.total in Serum or Plasma by Electrophoresis,M Protein 1 MFr SerPl Elph,1,Protein.monoclonal band 1/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,10,44932-2,https://loinc.org/44932-2,ACTIVE,Protein.monoclonal band 2/Protein.total in Serum or Plasma by Electrophoresis,M Protein 2 MFr SerPl Elph,1,Protein.monoclonal band 2/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,11,50792-1,https://loinc.org/50792-1,ACTIVE,Protein.monoclonal band 3/Protein.total in Serum or Plasma by Electrophoresis,M Protein 3 MFr SerPl Elph,1,Protein.monoclonal band 3/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,12,50793-9,https://loinc.org/50793-9,ACTIVE,Protein.monoclonal band 4/Protein.total in Serum or Plasma by Electrophoresis,M Protein 4 MFr SerPl Elph,1,Protein.monoclonal band 4/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,13,101199-8,https://loinc.org/101199-8,ACTIVE,Protein.monoclonal band 5/Protein.total in Serum or Plasma by Electrophoresis,M Protein 5 MFr SerPl Elph,1,Protein.monoclonal band 5/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,14,101200-4,https://loinc.org/101200-4,ACTIVE,Protein.monoclonal band 6/Protein.total in Serum or Plasma by Electrophoresis,M Protein 6 MFr SerPl Elph,1,Protein.monoclonal band 6/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,15,104657-2,https://loinc.org/104657-2,ACTIVE,Sialate free and total panel - Urine,Sialate free and total pnl Ur,1,Sialate free and total panel,-,Pt,Urine,-,,,PANEL.CHEM
+TOTAL PROTEIN,16,42483-8,https://loinc.org/42483-8,ACTIVE,Protein.monoclonal/Protein.total in Urine by Electrophoresis,M Protein MFr Ur Elph,1,Protein.monoclonal/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,17,32629-8,https://loinc.org/32629-8,ACTIVE,Protein.monoclonal/Protein.total in Specimen by Immunofixation,M Protein MFr Spec IFE,1,Protein.monoclonal/Protein.total,MFr,Pt,XXX,Qn,Immunofixation,%,CHEM
+TOTAL PROTEIN,18,101179-0,https://loinc.org/101179-0,ACTIVE,Immunoglobulin light chains.free/Protein.total in 24 hour Urine,BJ Protein Free 24h MFr Ur,1,Immunoglobulin light chains.free/Protein.total,MFr,24H,Urine,Qn,,%,CHEM
+TOTAL PROTEIN,19,56768-5,https://loinc.org/56768-5,ACTIVE,Protein.monoclonal.beta/Protein.total in Urine by Electrophoresis,M protein beta MFr Ur Elph,1,Protein.monoclonal.beta/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,20,58463-1,https://loinc.org/58463-1,ACTIVE,Tau protein/Protein.total in Cerebral spinal fluid,Tau Prot MFr CSF,1,Tau protein/Protein.total,MFr,Pt,CSF,Qn,,%,CHEM
+TOTAL PROTEIN,21,42484-6,https://loinc.org/42484-6,ACTIVE,Protein.monoclonal/Protein.total in 24 hour Urine by Electrophoresis,M Protein 24h MFr Ur Elph,1,Protein.monoclonal/Protein.total,MFr,24H,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,22,33647-9,https://loinc.org/33647-9,ACTIVE,Protein.monoclonal/Protein.total in Serum or Plasma by Electrophoresis,M Protein MFr SerPl Elph,1,Protein.monoclonal/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,23,72577-0,https://loinc.org/72577-0,ACTIVE,Protein.monoclonal/Protein.total [Pure mass fraction] in 24 hour Urine by Electrophoresis,M Protein 24h MFr.DF Ur Elph,1,Protein.monoclonal/Protein.total,MFr.DF,24H,Urine,Qn,Electrophoresis,,CHEM
+TOTAL PROTEIN,24,61346-3,https://loinc.org/61346-3,ACTIVE,Rat urine proteins IgE Ab/IgE total in Serum,Rat Urine Prot IgE/IgE total %,1,Rat urine proteins Ab.IgE/IgE.total,AFr,Pt,Ser,Qn,,% response,ALLERGY
+TOTAL PROTEIN,25,61342-2,https://loinc.org/61342-2,ACTIVE,Mouse urine proteins IgE Ab/IgE total in Serum,Mouse Urine Prot IgE/IgE total %,1,Mouse urine proteins Ab.IgE/IgE.total,AFr,Pt,Ser,Qn,,% response,ALLERGY
+TOTAL PROTEIN,26,100428-2,https://loinc.org/100428-2,ACTIVE,Carnitine free and total and acylcarnitine panel - Urine,Carnitine + acylcarnitine Pnl Ur,1,Carnitine Free & Total & Acylcarnitine Panel,-,Pt,Urine,-,,,PANEL.CHEM
+TOTAL PROTEIN,27,96463-5,https://loinc.org/96463-5,ACTIVE,Copper free/Total copper in Serum or Plasma by calculation,Copper free/Total copper MFr SerPl Calc,1,Copper.free/Copper.total,MFr,Pt,Ser/Plas,Qn,Calculated,%,DRUG/TOX
+TOTAL PROTEIN,28,97182-0,https://loinc.org/97182-0,ACTIVE,Carnitine free and total and acylcarnitine panel - Serum or Plasma,Carnitine + acylcarnitine Pnl SerPl,1,Carnitine free & total & acylcarnitine panel,-,Pt,Ser/Plas,-,,,PANEL.CHEM
+TOTAL PROTEIN,29,58952-3,https://loinc.org/58952-3,ACTIVE,Testosterone free and total panel [Mass/volume] - Serum or Plasma,Testost free+total panel SerPl-mCnc,1,Testosterone free & total panel,MCnc,Pt,Ser/Plas,Qn,,,PANEL.CHEM
+TOTAL PROTEIN,30,58716-2,https://loinc.org/58716-2,ACTIVE,Testosterone.free+weakly bound and total panel - Serum or Plasma,Testost free+WB + Total pnl SerPl,1,Testosterone.free+weakly bound & total panel,-,Pt,Ser/Plas,-,,,PANEL.CHEM
+TOTAL PROTEIN,31,100662-6,https://loinc.org/100662-6,ACTIVE,Cortisol free and total panel - Serum or Plasma,CORTO SerPl,1,Cortisol free & total panel,-,Pt,Ser/Plas,-,,,PANEL.CHEM
+TOTAL PROTEIN,32,72890-7,https://loinc.org/72890-7,ACTIVE,Progesterone Free/Progesterone.total in Serum or Plasma,Progest Free/Total MFr SerPl,1,Progesterone.free/Progesterone.total,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+TOTAL PROTEIN,33,14960-9,https://loinc.org/14960-9,ACTIVE,Estradiol (E2) Free/Estradiol (E2).total in Serum or Plasma,Estradiol Free MFr SerPl,1,Estradiol.free/Estradiol.total,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+TOTAL PROTEIN,34,32613-2,https://loinc.org/32613-2,ACTIVE,Carnitine free (C0)/Carnitine.total in Urine,Carnitine Free SFr Ur,1,Carnitine.free (C0)/Carnitine.total,SFr,Pt,Urine,Qn,,%,CHEM
+TOTAL PROTEIN,35,55839-5,https://loinc.org/55839-5,ACTIVE,Cholesterol ester transfer protein [Units/volume] in Serum or Plasma,Cholest est trnsfr prot SerPl-aCnc,1,Cholesterol ester transfer protein,ACnc,Pt,Ser/Plas,Qn,,,CHEM
+TOTAL PROTEIN,36,65364-2,https://loinc.org/65364-2,ACTIVE,Cortisol Free/Cortisol.total in Serum or Plasma,Cortis F/Total MFr SerPl,1,Cortisol.free/Cortisol.total,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+TOTAL PROTEIN,37,34184-2,https://loinc.org/34184-2,ACTIVE,Gamma globulin/Protein.total in 24 hour Urine,Gamma glob 24h MFr Ur,1,Gamma globulin/Protein.total,MFr,24H,Urine,Qn,,%,CHEM
+TOTAL PROTEIN,38,34540-5,https://loinc.org/34540-5,ACTIVE,Phenytoin free and total panel - Serum or Plasma,Phenytoin Free+Total Pnl SerPl,1,Phenytoin free & total panel,-,Pt,Ser/Plas,Qn,,,PANEL.DRUG/TOX
+TOTAL PROTEIN,39,78439-7,https://loinc.org/78439-7,ACTIVE,Phenytoin free and total trough panel - Serum or Plasma,Phyt Free + Total Trough Pnl SerPl,1,Phenytoin free & total trough panel,-,Pt,Ser/Plas,Qn,,,PANEL.DRUG/TOX
+TOTAL PROTEIN,40,104660-6,https://loinc.org/104660-6,ACTIVE,Sialate.free/Sialate.total [Molar ratio] in Urine,Sialate.free/Sialate.total Ur-sRto,1,Sialate.free/Sialate.total,SRto,Pt,Urine,Qn,,mmol/mmol,CHEM
+TOTAL PROTEIN,41,50408-4,https://loinc.org/50408-4,ACTIVE,Protein.abnormal band/Protein.total in Urine by Electrophoresis,Abn Prot MFr Ur Elph,1,Protein.abnormal band/Protein.total,MFr,Pt,Urine,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,42,48615-9,https://loinc.org/48615-9,ACTIVE,Insulin.free and Insulin.total panel [Units/volume] - Serum or Plasma,Insulin.free+total Pnl SerPl-aCnc,1,Insulin.free & Insulin.total panel,ACnc,Pt,Ser/Plas,Qn,,,PANEL.CHEM
+TOTAL PROTEIN,43,14337-0,https://loinc.org/14337-0,ACTIVE,Phenytoin.total/Phenytoin.free [Mass Ratio] in Serum or Plasma,Phenytoin Total/Free SerPl,1,Phenytoin.total/Phenytoin.free,MRto,Pt,Ser/Plas,Qn,,,DRUG/TOX
+TOTAL PROTEIN,44,74439-1,https://loinc.org/74439-1,ACTIVE,GABA free and total panel - Cerebral spinal fluid,GABA free+total Pnl CSF,1,Gamma aminobutyrate free and total panel,-,Pt,CSF,-,,,PANEL.CHEM
+TOTAL PROTEIN,45,56154-8,https://loinc.org/56154-8,ACTIVE,Protein.abnormal band/Protein.total in Serum or Plasma by Electrophoresis,Abn Prot MFr SerPl Elph,1,Protein.abnormal band/Protein.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+TOTAL PROTEIN,46,74359-1,https://loinc.org/74359-1,ACTIVE,Cholesterol ester transfer protein actual/normal in Serum or Plasma,Cholest est trnsfr prot Act/Nor SerPl,1,Cholesterol ester transfer protein actual/normal,RelACnc,Pt,Ser/Plas,Qn,,%,CHEM
+TOTAL PROTEIN,47,34183-4,https://loinc.org/34183-4,ACTIVE,Beta globulin/Protein.total in 24 hour Urine,B-Globulin 24h MFr Ur,1,Beta globulin/Protein.total,MFr,24H,Urine,Qn,,%,CHEM
+TOTAL PROTEIN,48,53112-9,https://loinc.org/53112-9,ACTIVE,Carnitine free (C0)/Carnitine.total in Amniotic fluid,Carnitine Free SFr Amn,1,Carnitine.free (C0)/Carnitine.total,SFr,Pt,Amnio fld,Qn,,%,CHEM
+TOTAL PROTEIN,49,53095-6,https://loinc.org/53095-6,ACTIVE,Carnitine free (C0)/Carnitine.total in DBS,Carnitine Free SFr DBS,1,Carnitine.free (C0)/Carnitine.total,SFr,Pt,Bld.dot,Qn,,%,CHEM
+TOTAL PROTEIN,50,53096-4,https://loinc.org/53096-4,ACTIVE,Carnitine free (C0)/Carnitine.total in Cerebral spinal fluid,Carnitine Free SFr CSF,1,Carnitine.free (C0)/Carnitine.total,SFr,Pt,CSF,Qn,,%,CHEM
+GLUCOSE - FASTING,2,95102-0,https://loinc.org/95102-0,ACTIVE,Glucose post fasting and meal stimulation panel - Serum or Plasma,Glucose p Cfst + meal Pnl SerPl,1,Glucose post fasting and meal stimulation panel,-,Pt,Ser/Plas,-,,,PANEL.CHAL
+GLUCOSE - FASTING,3,16913-6,https://loinc.org/16913-6,ACTIVE,Fasting glucose [Presence] in Urine,Glucose p fast Ur Ql,1,Glucose^post CFst,PrThr,Pt,Urine,Ord,,,CHAL
+GLUCOSE - FASTING,4,63382-6,https://loinc.org/63382-6,ACTIVE,Fasting glucose [Mass/volume] in Urine,Glucose p fast Ur-mCnc,1,Glucose^post CFst,MCnc,Pt,Urine,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,5,53114-5,https://loinc.org/53114-5,ACTIVE,Fasting glucose [Moles/volume] in Urine,Glucose p fast Ur-sCnc,1,Glucose^post CFst,SCnc,Pt,Urine,Qn,,mmol/L,CHAL
+GLUCOSE - FASTING,6,76629-5,https://loinc.org/76629-5,ACTIVE,Fasting glucose [Moles/volume] in Blood,Glucose p fast Bld-sCnc,1,Glucose^post CFst,SCnc,Pt,Bld,Qn,,mmol/L,CHEM
+GLUCOSE - FASTING,7,1555-2,https://loinc.org/1555-2,ACTIVE,Glucose [Mass/volume] in Urine --12 hours fasting,Glucose p 12h fast Ur-mCnc,1,Glucose^post 12H CFst,MCnc,Pt,Urine,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,8,6764-5,https://loinc.org/6764-5,ACTIVE,Fasting glucose [Presence] in Urine by Test strip,Glucose p fast Ur Ql Strip,1,Glucose^post CFst,PrThr,Pt,Urine,Ord,Test strip,,CHAL
+GLUCOSE - FASTING,9,101476-0,https://loinc.org/101476-0,ACTIVE,Fasting glucose [Moles/volume] in Venous blood,Glucose p fast BldV-sCnc,1,Glucose^post CFst,SCnc,Pt,BldV,Qn,,mmol/L,CHAL
+GLUCOSE - FASTING,10,1556-0,https://loinc.org/1556-0,ACTIVE,Fasting glucose [Mass/volume] in Capillary blood,Glucose p fast BldC-mCnc,1,Glucose^post CFst,MCnc,Pt,BldC,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,11,1557-8,https://loinc.org/1557-8,ACTIVE,Fasting glucose [Mass/volume] in Venous blood,Glucose p fast BldV-mCnc,1,Glucose^post CFst,MCnc,Pt,BldV,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,12,1558-6,https://loinc.org/1558-6,ACTIVE,Fasting glucose [Mass/volume] in Serum or Plasma,Glucose p fast SerPl-mCnc,1,Glucose^post CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL.ROUTINE
+GLUCOSE - FASTING,14,14771-0,https://loinc.org/14771-0,ACTIVE,Fasting glucose [Moles/volume] in Serum or Plasma,Glucose p fast SerPl-sCnc,1,Glucose^post CFst,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - FASTING,16,10450-5,https://loinc.org/10450-5,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --10 hours fasting,Glucose p 10h fast SerPl-mCnc,1,Glucose^post 10H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,17,1554-5,https://loinc.org/1554-5,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --12 hours fasting,Glucose p 12h fast SerPl-mCnc,1,Glucose^post 12H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,18,17865-7,https://loinc.org/17865-7,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --8 hours fasting,Glucose p 8h fast SerPl-mCnc,1,Glucose^post 8H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,19,41604-0,https://loinc.org/41604-0,ACTIVE,Fasting glucose [Mass/volume] in Capillary blood by Glucometer,Glucose p fast BldC Glucomtr-mCnc,1,Glucose^post CFst,MCnc,Pt,BldC,Qn,Glucometer,mg/dL,CHAL
+GLUCOSE - FASTING,20,14770-2,https://loinc.org/14770-2,ACTIVE,Fasting glucose [Moles/volume] in Capillary blood by Glucometer,Glucose p fast BldC Glucomtr-sCnc,1,Glucose^post CFst,SCnc,Pt,BldC,Qn,Glucometer,mmol/L,CHAL
+GLUCOSE - FASTING,23,77145-1,https://loinc.org/77145-1,ACTIVE,"Fasting glucose [Moles/volume] in Serum, Plasma or Blood",Glucose p fast SerPlBld-sCnc,1,Glucose^post CFst,SCnc,Pt,Ser/Plas/Bld,Qn,,mmol/L,CHEM
+GLUCOSE - FASTING,24,1493-6,https://loinc.org/1493-6,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --1.5 hours post 0.05-0.15 U insulin/kg IV 12 hours fasting,Glucose 1.5h p U/kg Ins IV SerPl-mCnc,1,Glucose^1.5H post 0.05-0.15 U insulin/kg IV post 12H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,25,1550-3,https://loinc.org/1550-3,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --pre 12 hour fast,Glucose pre 12h fast SerPl-mCnc,1,Glucose^pre 12H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,26,14769-4,https://loinc.org/14769-4,ACTIVE,Glucose [Moles/volume] in Serum or Plasma --pre 12 hour fast,Glucose pre 12h fast SerPl-sCnc,1,Glucose^pre 12H CFst,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - FASTING,27,1523-0,https://loinc.org/1523-0,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --30 minutes post 0.05-0.15 U insulin/kg IV post 12H CFst,Glucose 30M p U/kg Ins IV SerPl-mCnc,1,Glucose^30M post 0.05-0.15 U insulin/kg IV post 12H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - FASTING,28,1500-8,https://loinc.org/1500-8,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --1 hour post 0.05-0.15 U insulin/kg IV post 12H CFst,Glucose 1h p U/kg Ins IV SerPl-mCnc,1,Glucose^1H post 0.05-0.15 U insulin/kg IV post 12H CFst,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+HEMOGLOBIN,1,4548-4,https://loinc.org/4548-4,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood,HbA1c MFr Bld,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,CHEM
+HEMOGLOBIN,2,4576-5,https://loinc.org/4576-5,ACTIVE,Hemoglobin F/Hemoglobin.total in Blood,Hgb F MFr Bld,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,3,55235-6,https://loinc.org/55235-6,ACTIVE,Abnormal hemoglobin gene panel - Blood by Molecular genetics method,Abnormal hemoglobin Pnl Bld,1,Abnormal hemoglobin gene panel,-,Pt,Bld,-,Molgen,,PANEL.MOLPATH
+HEMOGLOBIN,4,71875-9,https://loinc.org/71875-9,ACTIVE,Hemoglobin A1c/Hemoglobin.total [Pure mass fraction] in Blood,HbA1c MFr.DF Bld,1,Hemoglobin A1c/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,,,CHEM
+HEMOGLOBIN,6,55372-7,https://loinc.org/55372-7,ACTIVE,Hemoglobin Constant Spring/Hemoglobin.total in Blood,Hgb CSp MFr Bld,1,Hemoglobin Constant Spring/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,7,42810-2,https://loinc.org/42810-2,ACTIVE,Hemoglobin [Entitic mass] in Reticulocytes,Hgb Retic Qn,1,Hemoglobin,EntMass,Pt,Retic,Qn,,pg,HEM/BC
+HEMOGLOBIN,9,17855-8,https://loinc.org/17855-8,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood by calculation,HbA1c MFr Bld Calc,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld,Qn,Calculated,%,CHEM
+HEMOGLOBIN,10,96595-4,https://loinc.org/96595-4,ACTIVE,Hemoglobin A1c/Hemoglobin.total in DBS,HbA1c MFr DBS,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld.dot,Qn,,%,CHEM
+HEMOGLOBIN,11,54209-2,https://loinc.org/54209-2,ACTIVE,Hemoglobin C - Harlem/Hemoglobin.total in Blood,Hgb C-Harlem MFr Bld,1,Hemoglobin C-Harlem/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,12,5913-9,https://loinc.org/5913-9,ACTIVE,Hemoglobin F/Hemoglobin.total in Amniotic fluid,Hgb F MFr Amn,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Amnio fld,Qn,,%,HEM/BC
+HEMOGLOBIN,13,54074-0,https://loinc.org/54074-0,ACTIVE,Hemoglobin F/Hemoglobin.total in DBS,Hgb F MFr DBS,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Bld.dot,Qn,,%,HEM/BC
+HEMOGLOBIN,14,18291-5,https://loinc.org/18291-5,ACTIVE,Hemoglobin F/Hemoglobin.total in Blood from Newborn,Hgb F MFr Bld NB,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Bld^Newborn,Qn,,%,HEM/BC
+HEMOGLOBIN,16,53857-9,https://loinc.org/53857-9,ACTIVE,Hemoglobin F [Mass/volume] in Blood,Hgb F Bld-mCnc,1,Hemoglobin F,MCnc,Pt,Bld,Qn,,g/L,CHEM
+HEMOGLOBIN,17,28006-5,https://loinc.org/28006-5,ACTIVE,Hemoglobin F [Presence] in Vomitus,Hgb F Vom Ql,1,Hemoglobin F,PrThr,Pt,Vomitus,Ord,,,HEM/BC
+HEMOGLOBIN,18,42246-9,https://loinc.org/42246-9,ACTIVE,Hemoglobin F/Hemoglobin.total in Blood by HPLC,Hgb F MFr Bld HPLC,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Bld,Qn,HPLC,%,HEM/BC
+HEMOGLOBIN,19,4638-3,https://loinc.org/4638-3,ACTIVE,Thermolabile hemoglobin/Hemoglobin.total in Red Blood Cells,Hgb TL MFr RBC,1,Hemoglobin.thermolabile/Hemoglobin.total,MFr,Pt,RBC,Qn,,%,HEM/BC
+HEMOGLOBIN,20,41995-2,https://loinc.org/41995-2,ACTIVE,Hemoglobin A1c [Mass/volume] in Blood,HbA1c Bld-mCnc,1,Hemoglobin A1c,MCnc,Pt,Bld,Qn,,g/dL,CHEM
+HEMOGLOBIN,21,4551-8,https://loinc.org/4551-8,ACTIVE,Hemoglobin A2/Hemoglobin.total in Blood,Hgb A2 MFr Bld,1,Hemoglobin A2/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,22,4555-9,https://loinc.org/4555-9,ACTIVE,Hemoglobin A3/Hemoglobin.total in Blood,Hgb A3 MFr Bld,1,Hemoglobin A3/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,23,4563-3,https://loinc.org/4563-3,ACTIVE,Hemoglobin C/Hemoglobin.total in Blood,Hgb C MFr Bld,1,Hemoglobin C/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,24,4575-7,https://loinc.org/4575-7,ACTIVE,Hemoglobin E/Hemoglobin.total in Blood,Hgb E MFr Bld,1,Hemoglobin E/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,25,4579-9,https://loinc.org/4579-9,ACTIVE,Hemoglobin F [Presence] in Blood,Hgb F Bld Ql,1,Hemoglobin F,PrThr,Pt,Bld,Ord,,,HEM/BC
+HEMOGLOBIN,26,4580-7,https://loinc.org/4580-7,ACTIVE,Hemoglobin F1/Hemoglobin.total in Blood,Hgb F1 MFr Bld,1,Hemoglobin F1/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,27,4588-0,https://loinc.org/4588-0,ACTIVE,Hemoglobin H/Hemoglobin.total in Blood,Hgb H MFr Bld,1,Hemoglobin H/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,28,80656-2,https://loinc.org/80656-2,ACTIVE,Hemoglobin Hope/Hemoglobin.total in Blood,Hgb Hope MFr Bld,1,Hemoglobin Hope/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,29,51613-8,https://loinc.org/51613-8,ACTIVE,Hemoglobin J/Hemoglobin.total in Blood,Hgb J MFr Bld,1,Hemoglobin J/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,30,35125-4,https://loinc.org/35125-4,ACTIVE,Hemoglobin Lepore/Hemoglobin.total in Blood,Hgb Lepore MFr Bld,1,Hemoglobin Lepore/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,31,51614-6,https://loinc.org/51614-6,ACTIVE,Hemoglobin M/Hemoglobin.total in Blood,Hgb M MFr Bld,1,Hemoglobin M/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,32,80657-0,https://loinc.org/80657-0,ACTIVE,Hemoglobin Q/Hemoglobin.total in Blood,Hg Q MFr Bld,1,Hemoglobin Q/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,33,4549-2,https://loinc.org/4549-2,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood by Electrophoresis,HbA1c MFr Bld Elph,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld,Qn,Electrophoresis,%,CHEM
+HEMOGLOBIN,34,17856-6,https://loinc.org/17856-6,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood by HPLC,HbA1c MFr Bld HPLC,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld,Qn,HPLC,%,CHEM
+HEMOGLOBIN,35,62388-4,https://loinc.org/62388-4,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood by JDS/JSCC protocol,HbA1c MFr Bld JDS/JSCC,1,Hemoglobin A1c/Hemoglobin.total,MFr,Pt,Bld,Qn,JDS/JSCC,%,CHEM
+HEMOGLOBIN,36,59261-8,https://loinc.org/59261-8,ACTIVE,Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol,HbA1c SFr Bld IFCC,1,Hemoglobin A1c/Hemoglobin.total,SFr,Pt,Bld,Qn,IFCC,mmol/mol,CHEM
+HEMOGLOBIN,37,32682-7,https://loinc.org/32682-7,ACTIVE,Hemoglobin F/Hemoglobin.total in Blood by Electrophoresis,Hgb F MFr Bld Elph,1,Hemoglobin F/Hemoglobin.total,MFr,Pt,Bld,Qn,Electrophoresis,%,HEM/BC
+HEMOGLOBIN,38,71865-0,https://loinc.org/71865-0,ACTIVE,Hemoglobin F/Hemoglobin.total [Pure mass fraction] in Blood by Electrophoresis,Hgb F MFr.DF Bld Elph,1,Hemoglobin F/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,Electrophoresis,,HEM/BC
+HEMOGLOBIN,39,71864-3,https://loinc.org/71864-3,ACTIVE,Hemoglobin F/Hemoglobin.total [Pure mass fraction] in Blood by HPLC,Hgb F MFr.DF Bld HPLC,1,Hemoglobin F/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,HPLC,,HEM/BC
+HEMOGLOBIN,40,97551-6,https://loinc.org/97551-6,ACTIVE,Carboxyhemoglobin/Hemoglobin.total in Central venous blood,COHgb MFr BldCV,1,Carboxyhemoglobin/Hemoglobin.total,MFr,Pt,BldCV,Qn,,%,CHEM
+HEMOGLOBIN,41,71694-4,https://loinc.org/71694-4,ACTIVE,Hemoglobin [Entitic mass] in Reticulocytes by Automated count,Hgb Retic Qn Auto,1,Hemoglobin,EntMass,Pt,Retic,Qn,Automated count,pg,HEM/BC
+HEMOGLOBIN,42,4546-8,https://loinc.org/4546-8,ACTIVE,Hemoglobin A/Hemoglobin.total in Blood,Hgb A MFr Bld,1,Hemoglobin A/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,43,71876-7,https://loinc.org/71876-7,ACTIVE,Hemoglobin A/Hemoglobin.total [Pure mass fraction] in Blood,Hgb A MFr.DF Bld,1,Hemoglobin A/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,,,HEM/BC
+HEMOGLOBIN,44,4547-6,https://loinc.org/4547-6,ACTIVE,Hemoglobin A1/Hemoglobin.total in Blood,Hgb A1 MFr Bld,1,Hemoglobin A1/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,45,35127-0,https://loinc.org/35127-0,ACTIVE,Hemoglobin A2.prime/Hemoglobin.total in Blood,Hgb A2.prime MFr Bld,1,Hemoglobin A2.prime/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,46,71872-6,https://loinc.org/71872-6,ACTIVE,Hemoglobin A2/Hemoglobin.total [Pure mass fraction] in Blood,Hgb A2 MFr.DF Bld,1,Hemoglobin A2/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,,,HEM/BC
+HEMOGLOBIN,47,31156-3,https://loinc.org/31156-3,ACTIVE,Hemoglobin Barts/Hemoglobin.total in Blood,Hgb Barts MFr Bld,1,Hemoglobin Barts/Hemoglobin.total,MFr,Pt,Bld,Qn,,%,HEM/BC
+HEMOGLOBIN,48,71871-8,https://loinc.org/71871-8,ACTIVE,Hemoglobin Barts/Hemoglobin.total [Pure mass fraction] in Blood,Hgb Barts MFr.DF Bld,1,Hemoglobin Barts/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,,,HEM/BC
+HEMOGLOBIN,49,71870-0,https://loinc.org/71870-0,ACTIVE,Hemoglobin C/Hemoglobin.total [Pure mass fraction] in Blood,Hgb C MFr.DF Bld,1,Hemoglobin C/Hemoglobin.total,MFr.DF,Pt,Bld,Qn,,,HEM/BC
+HEMOGLOBIN,50,4564-1,https://loinc.org/4564-1,ACTIVE,Hemoglobin C - Harlem [Presence] in Blood,Hgb C-Harlem Bld Ql,1,Hemoglobin C-Harlem,PrThr,Pt,Bld,Ord,,,HEM/BC
+AMYLASE,1,56776-8,https://loinc.org/56776-8,ACTIVE,Amylase S3+S4/Amylase.total in Serum or Plasma,Amylase S3+S4 CFr SerPl,1,Amylase.S3+S4/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,2,24334-5,https://loinc.org/24334-5,ACTIVE,Amylase isoenzyme 7 panel - Serum,Amylase Iso7 Pnl Ser,1,Amylase isoenz 7 panel,-,Pt,Ser,Qn,,,PANEL.CHEM
+AMYLASE,3,49927-7,https://loinc.org/49927-7,ACTIVE,Amylase in fluid/Amylase in serum,Amylase Fld/SerPl,1,Amylase.fld/Amylase.serum,RelRto,Pt,Body fld+Ser/Plas,Qn,,Ratio,CHEM
+AMYLASE,4,15023-5,https://loinc.org/15023-5,ACTIVE,Amylase S1/Amylase.total in Serum or Plasma,Amylase S1 CFr SerPl,1,Amylase.S1/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,5,15024-3,https://loinc.org/15024-3,ACTIVE,Amylase S2/Amylase.total in Serum or Plasma,Amylase S2 CFr SerPl,1,Amylase.S2/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,6,15025-0,https://loinc.org/15025-0,ACTIVE,Amylase S3/Amylase.total in Serum or Plasma,Amylase S3 CFr SerPl,1,Amylase.S3/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,7,56782-6,https://loinc.org/56782-6,ACTIVE,Amylase S4/Amylase.total in Serum or Plasma,Amylase S4 CFr SerPl,1,Amylase.S4/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,8,33245-2,https://loinc.org/33245-2,ACTIVE,Amylase [Catalytic Activity] in Urine collected for unspecified duration,Amylase ?Tm cAct Ur,1,Amylase,CAct,XXX,Urine,Qn,,U,CHEM
+AMYLASE,9,76630-3,https://loinc.org/76630-3,ACTIVE,Amylase [Enzymatic activity/volume] in Blood,Amylase Bld-cCnc,1,Amylase,CCnc,Pt,Bld,Qn,,arb U/L,CHEM
+AMYLASE,11,1799-6,https://loinc.org/1799-6,ACTIVE,Amylase [Enzymatic activity/volume] in Urine,Amylase Ur-cCnc,1,Amylase,CCnc,Pt,Urine,Qn,,arb U/L,CHEM
+AMYLASE,12,43821-8,https://loinc.org/43821-8,ACTIVE,Amylase [Presence] in 24 hour Urine,Amylase 24h Ur Ql,1,Amylase,PrThr,24H,Urine,Ord,,,CHEM
+AMYLASE,13,38992-4,https://loinc.org/38992-4,ACTIVE,Amylase [Units/volume] in 24 hour Urine,Amylase 24h Ur-aCnc,1,Amylase,ACnc,24H,Urine,Qn,,Dye units,CHEM
+AMYLASE,14,38991-6,https://loinc.org/38991-6,ACTIVE,Amylase [Enzymatic activity/volume] in 12 hour Urine,Amylase 12h Ur-cCnc,1,Amylase,CCnc,12H,Urine,Qn,,arb U/L,CHEM
+AMYLASE,15,25311-2,https://loinc.org/25311-2,ACTIVE,Amylase [Enzymatic activity/volume] in 24 hour Urine,Amylase 24h Ur-cCnc,1,Amylase,CCnc,24H,Urine,Qn,,arb U/L,CHEM
+AMYLASE,16,14390-9,https://loinc.org/14390-9,ACTIVE,Amylase [Enzymatic activity/volume] in Dialysis fluid,Amylase Dial fld-cCnc,1,Amylase,CCnc,Pt,Dial fld,Qn,,arb U/L,CHEM
+AMYLASE,17,1794-7,https://loinc.org/1794-7,ACTIVE,Amylase [Enzymatic activity/volume] in Duodenal fluid,Amylase Duod fl-cCnc,1,Amylase,CCnc,Pt,Duod fld,Qn,,arb U/L,CHEM
+AMYLASE,18,14391-7,https://loinc.org/14391-7,ACTIVE,Amylase [Enzymatic activity/volume] in Gastric fluid,Amylase Gast-cCnc,1,Amylase,CCnc,Pt,Gast fld,Qn,,arb U/L,CHEM
+AMYLASE,19,33368-2,https://loinc.org/33368-2,ACTIVE,Amylase [Enzymatic activity/volume] in Pericardial fluid,Amylase Pcar-cCnc,1,Amylase,CCnc,Pt,Pericard fld,Qn,,arb U/L,CHEM
+AMYLASE,20,74992-9,https://loinc.org/74992-9,ACTIVE,Amylase [Enzymatic activity/volume] in Saliva (oral fluid),Amylase Sal-cCnc,1,Amylase,CCnc,Pt,Saliva,Qn,,arb U/L,CHEM
+AMYLASE,21,33599-2,https://loinc.org/33599-2,ACTIVE,Amylase [Enzymatic activity/volume] in Urine collected for unspecified duration,Amylase ?Tm Ur-cCnc,1,Amylase,CCnc,XXX,Urine,Qn,,arb U/L,CHEM
+AMYLASE,22,17841-8,https://loinc.org/17841-8,ACTIVE,Amylase [Enzymatic activity/time] in 12 hour Urine,Amylase 12h Ur-cRate,1,Amylase,CRat,12H,Urine,Qn,,U/12 H,CHEM
+AMYLASE,23,59001-8,https://loinc.org/59001-8,ACTIVE,Amylase [Enzymatic activity/time] in 18 hour Urine,Amylase 18h Ur-cRate,1,Amylase,CRat,18H,Urine,Qn,,U/18 H,CHEM
+AMYLASE,24,38193-9,https://loinc.org/38193-9,ACTIVE,Amylase [Enzymatic activity/time] in Urine collected for unspecified duration,Amylase ?Tm Ur-cRate,1,Amylase,CRat,XXX,Urine,Qn,,,CHEM
+AMYLASE,25,34235-2,https://loinc.org/34235-2,ACTIVE,Amylase/Creatinine [Ratio] in Urine,Amylase/Creat Ur-Rto,1,Amylase/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+AMYLASE,26,24333-7,https://loinc.org/24333-7,ACTIVE,Amylase isoenzyme 3 panel - Serum or Plasma,Amylase Iso3 Pnl SerPl,1,Amylase isoenz 3 panel,-,Pt,Ser/Plas,Qn,,,PANEL.CHEM
+AMYLASE,27,14589-6,https://loinc.org/14589-6,ACTIVE,Amylase isoenzymes [Interpretation] in Serum or Plasma,Amylase Isos SerPl-Imp,1,Amylase isoenzymes,Imp,Pt,Ser/Plas,Nom,,,CHEM
+AMYLASE,28,70262-1,https://loinc.org/70262-1,ACTIVE,Amylase in peritoneal fluid/Amylase in serum,Amylase.prt fld/SerPl,1,Amylase.periton fld/Amylase.serum,RelRto,Pt,Periton fld+Ser/Plas,Qn,,Ratio,CHEM
+AMYLASE,29,38192-1,https://loinc.org/38192-1,ACTIVE,Amylase [Enzymatic activity/volume] in 2 hour Urine,Amylase 2h Ur-cCnc,1,Amylase,CCnc,2H,Urine,Qn,,arb U/L,CHEM
+AMYLASE,30,1797-0,https://loinc.org/1797-0,ACTIVE,Amylase [Enzymatic activity/volume] in Peritoneal fluid,Amylase Prt-cCnc,1,Amylase,CCnc,Pt,Periton fld,Qn,,arb U/L,CHEM
+AMYLASE,31,1796-2,https://loinc.org/1796-2,ACTIVE,Amylase [Enzymatic activity/volume] in Pleural fluid,Amylase Plr-cCnc,1,Amylase,CCnc,Pt,Plr fld,Qn,,arb U/L,CHEM
+AMYLASE,32,32298-2,https://loinc.org/32298-2,ACTIVE,Amylase [Enzymatic activity/volume] in Specimen,Amylase Spec-cCnc,1,Amylase,CCnc,Pt,XXX,Qn,,arb U/L,CHEM
+AMYLASE,33,1800-2,https://loinc.org/1800-2,ACTIVE,Amylase [Enzymatic activity/time] in 24 hour Urine,Amylase 24h Ur-cRate,1,Amylase,CRat,24H,Urine,Qn,,U/24 H,CHEM
+AMYLASE,34,15350-2,https://loinc.org/15350-2,ACTIVE,Amylase [Enzymatic activity/time] in 2 hour Urine,Amylase 2h Ur-cRate,1,Amylase,CRat,2H,Urine,Qn,,U/2 H,CHEM
+AMYLASE,35,13706-7,https://loinc.org/13706-7,ACTIVE,Amylase/Creatinine [Mass Ratio] in Urine,Amylase/Creat Ur,1,Amylase/Creatinine,MRto,Pt,Urine,Qn,,ug/g creatinine,CHEM
+AMYLASE,36,56902-0,https://loinc.org/56902-0,ACTIVE,Amylase/Creatinine [Ratio] in 24 hour Urine,Amylase/Creat 24h Ur-Rto,1,Amylase/Creatinine,Ratio,24H,Urine,Qn,,U/g creatinine,CHEM
+AMYLASE,37,54472-6,https://loinc.org/54472-6,ACTIVE,Amylase.macromolecular/Amylase.total in Serum or Plasma,Amylase Macro CFr SerPl,1,Amylase.macromolecular/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,38,15020-1,https://loinc.org/15020-1,ACTIVE,Amylase.P1/Amylase.total in Serum or Plasma,Amylase P1 CFr SerPl,1,Amylase.P1/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,39,15021-9,https://loinc.org/15021-9,ACTIVE,Amylase.P2/Amylase.total in Serum or Plasma,Amylase P2 CFr SerPl,1,Amylase.P2/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,40,15022-7,https://loinc.org/15022-7,ACTIVE,Amylase.P3/Amylase.total in Serum or Plasma,Amylase P3 CFr SerPl,1,Amylase.P3/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,41,1806-9,https://loinc.org/1806-9,ACTIVE,Amylase S1 [Enzymatic activity/volume] in Serum or Plasma,Amylase S1 SerPl-cCnc,1,Amylase.S1,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+AMYLASE,42,1807-7,https://loinc.org/1807-7,ACTIVE,Amylase S2 [Enzymatic activity/volume] in Serum or Plasma,Amylase S2 SerPl-cCnc,1,Amylase.S2,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+AMYLASE,43,1808-5,https://loinc.org/1808-5,ACTIVE,Amylase S3 [Enzymatic activity/volume] in Serum or Plasma,Amylase S3 SerPl-cCnc,1,Amylase.S3,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+AMYLASE,44,25313-8,https://loinc.org/25313-8,ACTIVE,Amylase.salivary/Amylase.total in Serum or Plasma,Amylase S CFr SerPl,1,Amylase.salivary/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,45,53134-3,https://loinc.org/53134-3,ACTIVE,Amylase isoenzymes [Interpretation] in Body fluid Narrative,Amylase Isos Fld-Imp,1,Amylase isoenzymes,Imp,Pt,Body fld,Nar,,,CHEM
+AMYLASE,46,49251-2,https://loinc.org/49251-2,ACTIVE,Amylase isoenzymes [Interpretation] in Serum or Plasma Narrative,Amylase Isos SerPl-Imp,1,Amylase isoenzymes,Imp,Pt,Ser/Plas,Nar,,,CHEM
+AMYLASE,47,44789-6,https://loinc.org/44789-6,ACTIVE,Amylase and Creatinine clearance panel - Urine and Serum or Plasma,Amylase + CrCl Pnl Ur+SerPl,1,Amylase & Creatinine clearance panel,-,Pt,Urine+Ser/Plas,Qn,,,PANEL.CHEM
+AMYLASE,48,72272-8,https://loinc.org/72272-8,ACTIVE,Amylase and triacylglycerol lipase panel - Serum or Plasma,Amylase+lipase Pnl SerPl,1,Amylase & triacylglycerol lipase panel,-,Pt,Ser/Plas,Qn,,,PANEL.CHEM
+AMYLASE,49,25312-0,https://loinc.org/25312-0,ACTIVE,Amylase.pancreatic/Amylase.total in Serum or Plasma,Amylase P CFr SerPl,1,Amylase.pancreatic/Amylase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+AMYLASE,50,72571-3,https://loinc.org/72571-3,ACTIVE,Amylase.pancreatic/Amylase.total [Pure catalytic fraction] in Serum or Plasma,Amylase P CFr.DF SerPl,1,Amylase.pancreatic/Amylase.total,CFr.DF,Pt,Ser/Plas,Qn,,,CHEM
+GLUCOSE - PP,1,87422-2,https://loinc.org/87422-2,ACTIVE,Glucose [Mass/volume] in Blood --post meal,Glucose p meal Bld-mCnc,1,Glucose^post meal,MCnc,Pt,Bld,Qn,,mg/dl,CHAL.ROUTINE
+GLUCOSE - PP,2,43278-1,https://loinc.org/43278-1,ACTIVE,Glucose [Mass/volume] in Milk --2 hours post meal,Glucose 2h p meal Mlk-mCnc,1,Glucose^2H post meal,MCnc,Pt,Milk,Qn,,mg/dL,CHAL
+GLUCOSE - PP,3,16915-1,https://loinc.org/16915-1,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --post meal,Glucose p meal SerPl-mCnc,1,Glucose^post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,4,53094-9,https://loinc.org/53094-9,ACTIVE,Glucose [Moles/volume] in Serum or Plasma --post meal,Glucose p meal SerPl-sCnc,1,Glucose^post meal,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - PP,5,95078-2,https://loinc.org/95078-2,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --15 min post meal,Glucose 15M p meal SerPl-mCnc,1,Glucose^15M post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dl,CHAL
+GLUCOSE - PP,6,56124-1,https://loinc.org/56124-1,ACTIVE,Glucose [Mass/volume] in Urine --1 hour post meal,Glucose 1h p meal Ur-mCnc,1,Glucose^1H post meal,MCnc,Pt,Urine,Qn,,mg/dL,CHAL
+GLUCOSE - PP,7,6689-4,https://loinc.org/6689-4,ACTIVE,Glucose [Mass/volume] in Blood --2 hours post meal,Glucose 2h p meal Bld-mCnc,1,Glucose^2H post meal,MCnc,Pt,Bld,Qn,,mg/dL,CHAL
+GLUCOSE - PP,8,95105-3,https://loinc.org/95105-3,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --30 min post meal,Glucose 30M p meal SerPl-mCnc,1,Glucose^30M post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,9,95106-1,https://loinc.org/95106-1,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --3 hours post meal,Glucose 3h p meal SerPl-mCnc,1,Glucose^3H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,10,95108-7,https://loinc.org/95108-7,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --4 hours post meal,Glucose 4h p meal SerPl-mCnc,1,Glucose^4H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,11,95109-5,https://loinc.org/95109-5,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --5 hours post meal,Glucose 5h p meal SerPl-mCnc,1,Glucose^5H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,12,12614-4,https://loinc.org/12614-4,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --7 hours post meal,Glucose 7h p meal SerPl-mCnc,1,Glucose^7H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,13,40287-5,https://loinc.org/40287-5,ACTIVE,Glucose [Moles/volume] in Serum or Plasma --1 hour post meal,Glucose 1h p meal SerPl-sCnc,1,Glucose^1H post meal,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - PP,14,95103-8,https://loinc.org/95103-8,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --2.5 hours post meal,Glucose 2.5h p meal SerPl-mCnc,1,Glucose^2.5H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,15,1521-4,https://loinc.org/1521-4,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --2 hours post meal,Glucose 2h p meal SerPl-mCnc,1,Glucose^2H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL.ROUTINE
+GLUCOSE - PP,16,14760-3,https://loinc.org/14760-3,ACTIVE,Glucose [Moles/volume] in Capillary blood --2 hours post meal,Glucose 2h p meal BldC-sCnc,1,Glucose^2H post meal,SCnc,Pt,BldC,Qn,,mmol/L,CHAL
+GLUCOSE - PP,17,14761-1,https://loinc.org/14761-1,ACTIVE,Glucose [Moles/volume] in Serum or Plasma --2 hours post meal,Glucose 2h p meal SerPl-sCnc,1,Glucose^2H post meal,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - PP,18,95104-6,https://loinc.org/95104-6,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --3.5 hours post meal,Glucose 3.5h p meal SerPl-mCnc,1,Glucose^3.5H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,19,95107-9,https://loinc.org/95107-9,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --4.5 hours post meal,Glucose 4.5h p meal SerPl-mCnc,1,Glucose^4.5H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL
+GLUCOSE - PP,20,80959-0,https://loinc.org/80959-0,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --1.5 hours post meal,Glucose 1.5h p meal SerPl-mCnc,1,Glucose^1.5H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dl,CHAL
+GLUCOSE - PP,21,44919-9,https://loinc.org/44919-9,ACTIVE,Glucose [Moles/volume] in Serum or Plasma --1.5 hours post meal,Glucose 1.5h p meal SerPl-sCnc,1,Glucose^1.5H post meal,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHAL
+GLUCOSE - PP,22,10449-7,https://loinc.org/10449-7,ACTIVE,Glucose [Mass/volume] in Serum or Plasma --1 hour post meal,Glucose 1h p meal SerPl-mCnc,1,Glucose^1H post meal,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHAL.ROUTINE
+GLUCOSE - PP,23,77677-3,https://loinc.org/77677-3,ACTIVE,"Glucose [Moles/volume] in Serum, Plasma or Blood --2 hours post meal",Glucose 2h p meal SerPlBld-sCnc,1,Glucose^2H post meal,SCnc,Pt,Ser/Plas/Bld,Qn,,mmol/L,CHAL
+UREA,1,20979-1,https://loinc.org/20979-1,ACTIVE,Urea [Mass/mass] in Feed,Urea Feed-mCnt,1,Urea,MCnt,Pt,Feed,Qn,,ug/g,CHEM
+UREA,2,20977-5,https://loinc.org/20977-5,ACTIVE,Urea [Mass/volume] in Blood,Urea Bld-mCnc,1,Urea,MCnc,Pt,Bld,Qn,,mg/dL,CHEM
+UREA,3,22700-9,https://loinc.org/22700-9,ACTIVE,Urea [Moles/volume] in Urine,Urea Ur-sCnc,1,Urea,SCnc,Pt,Urine,Qn,,mmol/L,CHEM
+UREA,4,3092-4,https://loinc.org/3092-4,ACTIVE,Urea [Mass/volume] in Urine,Urea Ur-mCnc,1,Urea,MCnc,Pt,Urine,Qn,,mg/dL,CHEM
+UREA,5,72903-8,https://loinc.org/72903-8,ACTIVE,Urea [Moles/volume] in Blood,Urea Bld-sCnc,1,Urea,SCnc,Pt,Bld,Qn,,mmol/L,CHEM
+UREA,6,5918-8,https://loinc.org/5918-8,ACTIVE,Urea nitrogen [Mass/volume] in Dialysis fluid,Urea nit Dial fld-mCnc,1,Urea nitrogen,MCnc,Pt,Dial fld,Qn,,mg/dL,CHEM
+UREA,7,12265-5,https://loinc.org/12265-5,ACTIVE,Urea nitrogen [Mass/volume] in Peritoneal fluid,Urea nit Prt-mCnc,1,Urea nitrogen,MCnc,Pt,Periton fld,Qn,,mg/dL,CHEM
+UREA,8,17758-4,https://loinc.org/17758-4,ACTIVE,Urea nitrogen [Mass/volume] in Vitreous fluid,Urea nit Vitf-mCnc,1,Urea nitrogen,MCnc,Pt,Vitr fld,Qn,,mg/dL,CHEM
+UREA,10,14397-4,https://loinc.org/14397-4,ACTIVE,Urea nitrogen [Mass/volume] in Gastric fluid,Urea nit Gast-mCnc,1,Urea nitrogen,MCnc,Pt,Gast fld,Qn,,mg/dL,CHEM
+UREA,11,14394-1,https://loinc.org/14394-1,ACTIVE,Urea nitrogen [Mass/volume] in Pleural fluid,Urea nit Plr-mCnc,1,Urea nitrogen,MCnc,Pt,Plr fld,Qn,,mg/dL,CHEM
+UREA,12,57385-7,https://loinc.org/57385-7,ACTIVE,Urea [Mass/time] in 12 hour Urine,Urea 12h Ur-mRate,1,Urea,MRat,12H,Urine,Qn,,g/12 H,CHEM
+UREA,13,74082-9,https://loinc.org/74082-9,ACTIVE,Urea [Moles/time] in 12 hour Urine,Urea 12h Ur-sRate,1,Urea,SRat,12H,Urine,Qn,,mmol/12 H,CHEM
+UREA,14,57389-9,https://loinc.org/57389-9,ACTIVE,Urea [Mass/volume] in 12 hour Urine,Urea 12h Ur-mCnc,1,Urea,MCnc,12H,Urine,Qn,,mg/dL,CHEM
+UREA,15,58991-1,https://loinc.org/58991-1,ACTIVE,Urea [Mass/time] in 18 hour Urine,Urea 18h Ur-mRate,1,Urea,MRat,18H,Urine,Qn,,g/18 H,CHEM
+UREA,17,29891-9,https://loinc.org/29891-9,ACTIVE,Helicobacter pylori [Presence] in Stomach by urea breath test,Urea Breath Test Ql,1,Carbon dioxide^post dose urea,PrThr,Pt,Exhl gas,Ord,,,MICRO
+UREA,18,14393-3,https://loinc.org/14393-3,ACTIVE,Urea nitrogen [Mass/volume] in Amniotic fluid,Urea nit Amn-mCnc,1,Urea nitrogen,MCnc,Pt,Amnio fld,Qn,,mg/dL,CHEM
+UREA,19,14936-9,https://loinc.org/14936-9,ACTIVE,Urea nitrogen [Moles/volume] in Peritoneal dialysis fluid,Urea nit DiafP-sCnc,1,Urea nitrogen,SCnc,Pt,Dial fld prt,Qn,,mmol/L,CHEM
+UREA,20,14000-4,https://loinc.org/14000-4,ACTIVE,Urea nitrogen [Mass/volume] in Cerebral spinal fluid,Urea nit CSF-mCnc,1,Urea nitrogen,MCnc,Pt,CSF,Qn,,mg/dL,CHEM
+UREA,21,17757-6,https://loinc.org/17757-6,ACTIVE,Urea nitrogen [Mass/volume] in Peritoneal dialysis fluid,Urea nit DiafP-mCnc,1,Urea nitrogen,MCnc,Pt,Dial fld prt,Qn,,mg/dL,CHEM
+UREA,23,48117-6,https://loinc.org/48117-6,ACTIVE,Isovalerylglycine/Urea [Molar ratio] in Plasma,Isovalerylgly/Urea Plas-sRto,1,Isovalerylglycine/Urea,SRto,Pt,Plas,Qn,,mmol/mmol,CHEM
+UREA,24,63481-6,https://loinc.org/63481-6,ACTIVE,Urea [Mass/volume] in 24 hour Urine,Urea 24h Ur-mCnc,1,Urea,MCnc,24H,Urine,Qn,,mg/dL,CHEM
+UREA,25,101252-5,https://loinc.org/101252-5,ACTIVE,Urea [Mass/volume] in Dialysis fluid,Urea Dial fld-mCnc,1,Urea,MCnc,Pt,Dial fld,Qn,,mg/dL,CHEM
+UREA,26,20978-3,https://loinc.org/20978-3,ACTIVE,Urea [Mass/volume] in Gastric fluid,Urea Gast-mCnc,1,Urea,MCnc,Pt,Gast fld,Qn,,mg/dL,CHEM
+UREA,27,47798-4,https://loinc.org/47798-4,ACTIVE,Urea [Moles/volume] in Stool,Urea Stl-sCnc,1,Urea,SCnc,Pt,Stool,Qn,,mmol/L,CHEM
+UREA,28,55609-2,https://loinc.org/55609-2,ACTIVE,Urea [Moles/volume] in Urine collected for unspecified duration,Urea ?Tm Ur-sCnc,1,Urea,SCnc,XXX,Urine,Qn,,mmol/L,CHEM
+UREA,29,32556-3,https://loinc.org/32556-3,ACTIVE,Urea [Molar amount] in Urine collected for unspecified duration,Urea ?Tm sub Ur Qn,1,Urea,Sub,XXX,Urine,Qn,,mmol,CHEM
+UREA,30,40487-1,https://loinc.org/40487-1,ACTIVE,Urea/Creatinine [Ratio] in Urine,Urea/Creat Ur-Rto,1,Urea/Creatinine,Ratio,Pt,Urine,Qn,,mmol/g creatinine,CHEM
+UREA,31,49802-2,https://loinc.org/49802-2,ACTIVE,Urea [Mass/volume] in Peritoneal fluid,Urea Prt-mCnc,1,Urea,MCnc,Pt,Periton fld,Qn,,mg/dL,CHEM
+UREA,32,56995-4,https://loinc.org/56995-4,ACTIVE,Urea [Mass/volume] in Pleural fluid,Urea Plr-mCnc,1,Urea,MCnc,Pt,Plr fld,Qn,,mg/dL,CHEM
+UREA,33,48999-7,https://loinc.org/48999-7,ACTIVE,Urea [Mass/time] in 24 hour Urine,Urea 24h Ur-mRate,1,Urea,MRat,24H,Urine,Qn,,g/24 H,CHEM
+UREA,34,25998-6,https://loinc.org/25998-6,ACTIVE,Urea [Moles/volume] in 24 hour Urine,Urea 24h Ur-sCnc,1,Urea,SCnc,24H,Urine,Qn,,mmol/L,CHEM
+UREA,35,45302-7,https://loinc.org/45302-7,ACTIVE,Urea [Moles/volume] in Dialysis fluid,Urea Dial fld-sCnc,1,Urea,SCnc,Pt,Dial fld,Qn,,mmol/L,CHEM
+UREA,36,39781-0,https://loinc.org/39781-0,ACTIVE,Urea [Moles/volume] in Peritoneal fluid,Urea Prt-sCnc,1,Urea,SCnc,Pt,Periton fld,Qn,,mmol/L,CHEM
+UREA,37,75364-0,https://loinc.org/75364-0,ACTIVE,Urea [Moles/volume] in Vitreous fluid,Urea Vitf-sCnc,1,Urea,SCnc,Pt,Vitr fld,Qn,,umol/L,CHEM
+UREA,38,25550-5,https://loinc.org/25550-5,ACTIVE,Urea [Moles/time] in 24 hour Urine,Urea 24h Ur-sRate,1,Urea,SRat,24H,Urine,Qn,,mmol/24 H,CHEM
+UREA,39,3093-2,https://loinc.org/3093-2,ACTIVE,Urea nitrogen [Mass/volume] in Body fluid,Urea nit Fld-mCnc,1,Urea nitrogen,MCnc,Pt,Body fld,Qn,,mg/dL,CHEM
+UREA,40,12969-2,https://loinc.org/12969-2,ACTIVE,Urea nitrogen [Mass/volume] in Peritoneal dialysis fluid --baseline,Urea nit BS DiafP-mCnc,1,Urea nitrogen^baseline,MCnc,Pt,Dial fld prt,Qn,,mg/L,CHEM
+UREA,41,14396-6,https://loinc.org/14396-6,ACTIVE,Urea nitrogen [Mass/volume] in Synovial fluid,Urea nit Snv-mCnc,1,Urea nitrogen,MCnc,Pt,Synv fld,Qn,,mg/dL,CHEM
+UREA,42,12968-4,https://loinc.org/12968-4,ACTIVE,Urea nitrogen [Mass/volume] in Dialysis fluid --4 hour specimen,Urea nit 4h spec Dial fld-mCnc,1,Urea nitrogen^4H specimen,MCnc,Pt,Dial fld,Qn,,mg/L,CHEM
+UREA,43,3090-8,https://loinc.org/3090-8,ACTIVE,Urea [Mass/volume] in Amniotic fluid,Urea Amn-mCnc,1,Urea,MCnc,Pt,Amnio fld,Qn,,mg/dL,CHEM
+UREA,44,39780-2,https://loinc.org/39780-2,ACTIVE,Urea [Moles/volume] in Peritoneal dialysis fluid,Urea DiafP-sCnc,1,Urea,SCnc,Pt,Dial fld prt,Qn,,mmol/L,CHEM
+UREA,45,22664-7,https://loinc.org/22664-7,ACTIVE,Urea [Moles/volume] in Serum or Plasma,Urea SerPl-sCnc,1,Urea,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+UREA,46,22738-9,https://loinc.org/22738-9,ACTIVE,Urea [Moles/volume] in Specimen,Urea Spec-sCnc,1,Urea,SCnc,Pt,XXX,Qn,,mmol/L,CHEM
+UREA,47,53137-6,https://loinc.org/53137-6,ACTIVE,Urea [Moles/time] in 1 hour Urine,Urea 1h Ur-sRate,1,Urea,SRat,1H,Urine,Qn,,mmol/h,CHEM
+UREA,48,40405-3,https://loinc.org/40405-3,ACTIVE,Urea [Moles/time] in 24 hour Dialysis fluid,Urea 24h Dial fld-sRate,1,Urea,SRat,24H,Dial fld,Qn,,mmol/24 H,CHEM
+UREA,49,59168-5,https://loinc.org/59168-5,ACTIVE,Urea [Moles/time] in 24 hour Stool,Urea 24h Stl-sRate,1,Urea,SRat,24H,Stool,Qn,,mmol/d,CHEM
+UREA,50,46243-2,https://loinc.org/46243-2,ACTIVE,Urea [Moles/volume] in Dialysis fluid --overnight,Urea Overnight Dial fld-sCnc,1,Urea^overnight,SCnc,Pt,Dial fld,Qn,,mmol/L,CHEM
+SGPT,1,76625-3,https://loinc.org/76625-3,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Blood,ALT Bld-cCnc,1,Alanine aminotransferase,CCnc,Pt,Bld,Qn,,arb U/L,CHEM
+SGPT,2,54491-6,https://loinc.org/54491-6,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Peritoneal fluid,ALT Prt-cCnc,1,Alanine aminotransferase,CCnc,Pt,Periton fld,Qn,,arb U/L,CHEM
+SGPT,3,96586-3,https://loinc.org/96586-3,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in DBS,ALT DBS-cCnc,1,Alanine aminotransferase,CCnc,Pt,Bld.dot,Qn,,U/L,CHEM
+SGPT,4,50168-4,https://loinc.org/50168-4,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Dialysis fluid,ALT Dial fld-cCnc,1,Alanine aminotransferase,CCnc,Pt,Dial fld,Qn,,arb U/L,CHEM
+SGPT,5,54492-4,https://loinc.org/54492-4,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Pleural fluid,ALT Plr-cCnc,1,Alanine aminotransferase,CCnc,Pt,Plr fld,Qn,,arb U/L,CHEM
+SGPT,6,16324-6,https://loinc.org/16324-6,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Red Blood Cells,ALT RBC-cCnc,1,Alanine aminotransferase,CCnc,Pt,RBC,Qn,,arb U/L,CHEM
+SGPT,7,100738-4,https://loinc.org/100738-4,ACTIVE,Alanine aminotransferase.macromolecular [Presence] in Serum or Plasma,ALT Macro SerPl Ql,1,Alanine aminotransferase.macromolecular,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+SGPT,8,1741-8,https://loinc.org/1741-8,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Amniotic fluid,ALT Amn-cCnc,1,Alanine aminotransferase,CCnc,Pt,Amnio fld,Qn,,arb U/L,CHEM
+SGPT,9,1742-6,https://loinc.org/1742-6,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,ALT SerPl-cCnc,1,Alanine aminotransferase,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+SGPT,10,25302-1,https://loinc.org/25302-1,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Body fluid,ALT Fld-cCnc,1,Alanine aminotransferase,CCnc,Pt,Body fld,Qn,,arb U/L,CHEM
+SGPT,11,48134-1,https://loinc.org/48134-1,ACTIVE,Alanine aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma,ALT Macro SerPl-cCnc,1,Alanine aminotransferase.macromolecular,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+SGPT,12,1743-4,https://loinc.org/1743-4,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P,ALT SerPl w P-5'-P-cCnc,1,Alanine aminotransferase,CCnc,Pt,Ser/Plas,Qn,With P-5'-P,arb U/L,CHEM
+SGPT,13,77144-4,https://loinc.org/77144-4,ACTIVE,"Alanine aminotransferase [Enzymatic activity/volume] in Serum, Plasma or Blood",ALT SerPlBld-cCnc,1,Alanine aminotransferase,CCnc,Pt,Ser/Plas/Bld,Qn,,arb U/L,CHEM
+SGPT,14,1744-2,https://loinc.org/1744-2,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P,ALT SerPl w/o P-5'-P-cCnc,1,Alanine aminotransferase,CCnc,Pt,Ser/Plas,Qn,No addition of P-5'-P,arb U/L,CHEM
+SGPT,15,16325-3,https://loinc.org/16325-3,ACTIVE,Alanine aminotransferase/Aspartate aminotransferase [Enzymatic activity ratio] in Serum or Plasma,ALT/AST SerPl-cRto,1,Alanine aminotransferase/Aspartate aminotransferase,CRto,Pt,Ser/Plas,Qn,,U/U,CHEM
+SGPT,16,1916-6,https://loinc.org/1916-6,ACTIVE,Aspartate aminotransferase/Alanine aminotransferase [Enzymatic activity ratio] in Serum or Plasma,AST/ALT SerPl-cRto,1,Aspartate aminotransferase/Alanine aminotransferase,CRto,Pt,Ser/Plas,Qn,,U/U,CHEM
+SGPT,17,44785-4,https://loinc.org/44785-4,ACTIVE,Alanine aminotransferase [Enzymatic activity/volume] (Maximum value during study) in Serum or Plasma by No addition of P-5'-P,ALT (Study max) SerPl w/o P-5'-P-cCnc,1,Alanine aminotransferase,CCnc,Stdy^max,Ser/Plas,Qn,No addition of P-5'-P,arb U/L,CHEM
+SGOT,1,14413-9,https://loinc.org/14413-9,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Urine,AST Ur-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Urine,Qn,,arb U/L,CHEM
+SGOT,2,14412-1,https://loinc.org/14412-1,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Gastric fluid,AST Gast-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Gast fld,Qn,,arb U/L,CHEM
+SGOT,3,96587-1,https://loinc.org/96587-1,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in DBS,AST DBS-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Bld.dot,Qn,,U/mL,CHEM
+SGOT,4,14414-7,https://loinc.org/14414-7,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Dialysis fluid,AST Dial fld-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Dial fld,Qn,,arb U/L,CHEM
+SGOT,5,14410-5,https://loinc.org/14410-5,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Peritoneal fluid,AST Prt-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Periton fld,Qn,,arb U/L,CHEM
+SGOT,6,14409-7,https://loinc.org/14409-7,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Pleural fluid,AST Plr-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Plr fld,Qn,,arb U/L,CHEM
+SGOT,7,16412-9,https://loinc.org/16412-9,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Red Blood Cells,AST RBC-cCnc,1,Aspartate aminotransferase,CCnc,Pt,RBC,Qn,,arb U/L,CHEM
+SGOT,8,27344-1,https://loinc.org/27344-1,ACTIVE,Aspartate aminotransferase [Presence] in Serum or Plasma,AST SerPl Ql,1,Aspartate aminotransferase,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+SGOT,9,100739-2,https://loinc.org/100739-2,ACTIVE,Aspartate aminotransferase.macromolecular [Presence] in Serum or Plasma,AST Macro SerPl Ql,1,Aspartate aminotransferase.macromolecular,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+SGOT,10,1917-4,https://loinc.org/1917-4,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Amniotic fluid,AST Amn-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Amnio fld,Qn,,arb U/L,CHEM
+SGOT,11,1918-2,https://loinc.org/1918-2,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Cerebral spinal fluid,AST CSF-cCnc,1,Aspartate aminotransferase,CCnc,Pt,CSF,Qn,,arb U/L,CHEM
+SGOT,12,1920-8,https://loinc.org/1920-8,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,AST SerPl-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+SGOT,13,43822-6,https://loinc.org/43822-6,ACTIVE,Aspartate aminotransferase [Presence] in Body fluid,AST Fld Ql,1,Aspartate aminotransferase,PrThr,Pt,Body fld,Ord,,,CHEM
+SGOT,14,1919-0,https://loinc.org/1919-0,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Body fluid,AST Fld-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Body fld,Qn,,arb U/L,CHEM
+SGOT,15,14411-3,https://loinc.org/14411-3,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Synovial fluid,AST Snv-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Synv fld,Qn,,arb U/L,CHEM
+SGOT,16,48136-6,https://loinc.org/48136-6,ACTIVE,Aspartate aminotransferase.macromolecular [Enzymatic activity/volume] in Serum or Plasma,AST Macro SerPl-cCnc,1,Aspartate aminotransferase.macromolecular,CCnc,Pt,Ser/Plas,Qn,,arb U/L,CHEM
+SGOT,17,44786-2,https://loinc.org/44786-2,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] (Maximum value during study) in Serum or Plasma,AST (Study max) SerPl-cCnc,1,Aspartate aminotransferase,CCnc,Stdy^max,Ser/Plas,Qn,,arb U/L,CHEM
+SGOT,18,54500-4,https://loinc.org/54500-4,ACTIVE,Aspartate aminotransferase.macromolecular/Aspartate aminotransferase.total in Serum or Plasma,AST Macro/AST.total CFr SerPl,1,Aspartate aminotransferase.macromolecular/Aspartate aminotransferase.total,CFr,Pt,Ser/Plas,Qn,,%,CHEM
+SGOT,19,2325-9,https://loinc.org/2325-9,ACTIVE,Gamma glutamyl transferase/Aspartate aminotransferase [Enzymatic activity ratio] in Serum or Plasma,GGT/AST SerPl-cRto,1,Gamma glutamyl transferase/Aspartate aminotransferase,CRto,Pt,Ser/Plas,Qn,,,CHEM
+SGOT,20,30239-8,https://loinc.org/30239-8,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by With P-5'-P,AST SerPl w P-5'-P-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Ser/Plas,Qn,With P-5'-P,arb U/L,CHEM
+SGOT,21,16325-3,https://loinc.org/16325-3,ACTIVE,Alanine aminotransferase/Aspartate aminotransferase [Enzymatic activity ratio] in Serum or Plasma,ALT/AST SerPl-cRto,1,Alanine aminotransferase/Aspartate aminotransferase,CRto,Pt,Ser/Plas,Qn,,U/U,CHEM
+SGOT,22,88112-8,https://loinc.org/88112-8,ACTIVE,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P,AST SerPl w/o P-5'-P-cCnc,1,Aspartate aminotransferase,CCnc,Pt,Ser/Plas,Qn,No addition of P-5'-P,arb U/L,CHEM
+SGOT,23,1916-6,https://loinc.org/1916-6,ACTIVE,Aspartate aminotransferase/Alanine aminotransferase [Enzymatic activity ratio] in Serum or Plasma,AST/ALT SerPl-cRto,1,Aspartate aminotransferase/Alanine aminotransferase,CRto,Pt,Ser/Plas,Qn,,U/U,CHEM
+CRP,2,71426-1,https://loinc.org/71426-1,ACTIVE,C reactive protein [Mass/volume] in Blood by High sensitivity method,CRP Bld HS-mCnc,1,C reactive protein,MCnc,Pt,Bld,Qn,High sensitivity,mg/L,CHEM
+CRP,3,35648-5,https://loinc.org/35648-5,ACTIVE,C reactive protein [Quintile] in Serum or Plasma by High sensitivity method,CRP Quint SerPl Qn HS,1,C reactive protein,Quintile,Pt,Ser/Plas,Qn,High sensitivity,,CHEM
+CRP,4,59182-6,https://loinc.org/59182-6,ACTIVE,C reactive protein [Mass/volume] in Cerebral spinal fluid by High sensitivity method,CRP CSF HS-mCnc,1,C reactive protein,MCnc,Pt,CSF,Qn,High sensitivity,mg/L,CHEM
+CRP,5,30522-7,https://loinc.org/30522-7,ACTIVE,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,CRP SerPl HS-mCnc,1,C reactive protein,MCnc,Pt,Ser/Plas,Qn,High sensitivity,mcg/mL; mg/dL; mg/L,CHEM
+CRP,6,76486-0,https://loinc.org/76486-0,ACTIVE,C reactive protein [Moles/volume] in Serum or Plasma by High sensitivity method,CRP SerPl HS-sCnc,1,C reactive protein,SCnc,Pt,Ser/Plas,Qn,High sensitivity,nmol/L,CHEM
+CRP,7,48421-2,https://loinc.org/48421-2,ACTIVE,C reactive protein [Mass/volume] in Capillary blood,CRP BldC-mCnc,1,C reactive protein,MCnc,Pt,BldC,Qn,,mg/L,CHEM
+CRP,8,11039-5,https://loinc.org/11039-5,ACTIVE,C reactive protein [Presence] in Serum or Plasma,CRP SerPl Ql,1,C reactive protein,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+CRP,9,76485-2,https://loinc.org/76485-2,ACTIVE,C reactive protein [Moles/volume] in Serum or Plasma,CRP SerPl-sCnc,1,C reactive protein,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+CRP,10,98987-1,https://loinc.org/98987-1,ACTIVE,C reactive protein [Units/volume] in Body fluid,CRP Fld-aCnc,1,C reactive protein,ACnc,Pt,Body fld,Qn,,arb U/L,CHEM
+CRP,11,16503-5,https://loinc.org/16503-5,ACTIVE,C reactive protein [Mass/volume] in Body fluid,CRP Fld-mCnc,1,C reactive protein,MCnc,Pt,Body fld,Qn,,ng/dL,CHEM
+CRP,12,45062-7,https://loinc.org/45062-7,ACTIVE,C reactive protein [Mass/volume] in Cerebral spinal fluid,CRP CSF-mCnc,1,C reactive protein,MCnc,Pt,CSF,Qn,,mg/L,CHEM
+CRP,13,1988-5,https://loinc.org/1988-5,ACTIVE,C reactive protein [Mass/volume] in Serum or Plasma,CRP SerPl-mCnc,1,C reactive protein,MCnc,Pt,Ser/Plas,Qn,,mg/L;mcg/mL; mg/dL,CHEM
+CRP,14,14634-0,https://loinc.org/14634-0,ACTIVE,C reactive protein [Titer] in Serum or Plasma,CRP Titr SerPl,1,C reactive protein,Titr,Pt,Ser/Plas,SemiQn,,titer,CHEM
+CRP,15,105126-7,https://loinc.org/105126-7,ACTIVE,"C reactive protein [Mass/volume] in Serum, Plasma or Blood",CRP SerPlBld-mCnc,1,C reactive protein,MCnc,Pt,Ser/Plas/Bld,Qn,,mg/dL,CHEM
+CRP,16,106736-2,https://loinc.org/106736-2,ACTIVE,"C reactive protein [Mass/volume] in Serum, Plasma or Blood by Rapid immunoassay",CRP SerPlBld IA.rapid-mCnc,1,C reactive protein,MCnc,Pt,Ser/Plas/Bld,Qn,IA.rapid,mg/L;μg/mL;mg/dL,CHEM
+ASO,1,58713-9,https://loinc.org/58713-9,ACTIVE,Streptococcal DNAse B and ASO antibodies panel - Serum,Strep DNAse B+ ASO Ab pnl Ser,1,DNAse B Ab.Streptococcal & Streptolysin O Ab panel,-,Pt,Ser,-,,,PANEL.MICRO
+ASO,2,9788-1,https://loinc.org/9788-1,ACTIVE,Streptolysin O Ab [Presence] in Serum,ASO Ab Ser Ql,1,Streptolysin O Ab,PrThr,Pt,Ser,Ord,,,MICRO
+ASO,3,45228-4,https://loinc.org/45228-4,ACTIVE,Streptolysin O Ab [Mass/volume] in Serum,ASO Ab Ser-mCnc,1,Streptolysin O Ab,MCnc,Pt,Ser,Qn,,ng/mL,MICRO
+ASO,4,25788-1,https://loinc.org/25788-1,ACTIVE,Streptolysin O Ab [Units/volume] in Serum by Latex agglutination,ASO Ab Ser LA-aCnc,1,Streptolysin O Ab,ACnc,Pt,Ser,Qn,LA,IU/mL,MICRO
+ASO,5,22568-0,https://loinc.org/22568-0,ACTIVE,Streptolysin O Ab [Titer] in Serum,ASO Ab Titr Ser,1,Streptolysin O Ab,Titr,Pt,Ser,SemiQn,,titer,MICRO
+ASO,6,29208-6,https://loinc.org/29208-6,ACTIVE,Streptolysin O Ab [Units/volume] in Body fluid,ASO Ab Fld-aCnc,1,Streptolysin O Ab,ACnc,Pt,Body fld,Qn,,IU/mL,MICRO
+ASO,7,5370-2,https://loinc.org/5370-2,ACTIVE,Streptolysin O Ab [Units/volume] in Serum or Plasma,ASO Ab SerPl-aCnc,1,Streptolysin O Ab,ACnc,Pt,Ser/Plas,Qn,,IU/mL;Todd units; units/mL,MICRO
+ASO,8,30149-9,https://loinc.org/30149-9,ACTIVE,Streptolysin O Ab [Units/volume] in Serum --1st specimen,ASO Ab sp1 Ser-aCnc,1,Streptolysin O Ab^1st specimen,ACnc,Pt,Ser,Qn,,IU/mL,MICRO
+ASO,9,30150-7,https://loinc.org/30150-7,ACTIVE,Streptolysin O Ab [Units/volume] in Serum --2nd specimen,ASO Ab sp2 Ser-aCnc,1,Streptolysin O Ab^2nd specimen,ACnc,Pt,Ser,Qn,,IU/mL,MICRO
+ASO,10,17657-8,https://loinc.org/17657-8,ACTIVE,Streptolysin O Ab [Units/volume] in Synovial fluid,ASO Ab Snv-aCnc,1,Streptolysin O Ab,ACnc,Pt,Synv fld,Qn,,arb U/mL,MICRO
+ASO,11,5371-0,https://loinc.org/5371-0,ACTIVE,Streptolysin O Ab [Titer] in Serum by Latex agglutination,ASO Ab Titr Ser LA,1,Streptolysin O Ab,Titr,Pt,Ser,SemiQn,LA,titer,MICRO
+CHOLESTEROL,1,21197-9,https://loinc.org/21197-9,ACTIVE,Cholesterol esters/Cholesterol.total in Serum or Plasma,Cholest Ester MFr SerPl,1,Cholesterol esters/Cholesterol.total,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+CHOLESTEROL,2,100732-7,https://loinc.org/100732-7,ACTIVE,Cholesterol.in lipoprotein (little a) and Cholesterol.in LDL panel - Serum,LPALD Ser,1,Cholesterol.in lipoprotein (little a) & Cholesterol.in LDL panel,-,Pt,Ser,-,,,PANEL.CHEM
+CHOLESTEROL,3,100733-5,https://loinc.org/100733-5,ACTIVE,Cholesterol in LDL [Mass/volume] in Serum by calculation --corrected for Cholesterol.in lipoprotein (little a),LDLc  cor Lpa Cholest,1,Cholesterol.in LDL^corrected for Cholesterol.in lipoprotein (little a),MCnc,Pt,Ser,Qn,Calculated,mg/dL,CHEM
+CHOLESTEROL,4,16616-5,https://loinc.org/16616-5,ACTIVE,Cholesterol in HDL/Cholesterol in LDL [Mass Ratio] in Serum or Plasma,HDLc/LDLc SerPl,1,Cholesterol.in HDL/Cholesterol.in LDL,MRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,5,11054-4,https://loinc.org/11054-4,ACTIVE,Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,LDLc/HDLc SerPl,1,Cholesterol.in LDL/Cholesterol.in HDL,MRto,Pt,Ser/Plas,Qn,,ratio,CHEM
+CHOLESTEROL,6,44915-7,https://loinc.org/44915-7,ACTIVE,Cholesterol in LDL/Cholesterol in HDL [Molar ratio] in Serum or Plasma,LDLc/HDLc SerPl-sRto,1,Cholesterol.in LDL/Cholesterol.in HDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,7,13459-3,https://loinc.org/13459-3,ACTIVE,Cholesterol in LDL/Cholesterol.total [Mass Ratio] in Serum or Plasma,LDLc SerPl,1,Cholesterol.in LDL/Cholesterol.total,MRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,9,2083-4,https://loinc.org/2083-4,ACTIVE,Cholesterol esterase [Enzymatic activity/volume] in Serum,Cholest Est Ser-cCnc,1,Cholesterol esterase,CCnc,Pt,Ser,Qn,,arb U/L,CHEM
+CHOLESTEROL,10,24079-6,https://loinc.org/24079-6,ACTIVE,Cholesterol esterase [Enzymatic activity/mass] in Fibroblast,Cholest Est Fib-cCnt,1,Cholesterol esterase,CCnt,Pt,Fibroblasts,Qn,,nmol/h/mg protein,CHEM
+CHOLESTEROL,11,59248-5,https://loinc.org/59248-5,ACTIVE,Cholesterol esterase [Enzymatic activity/mass] in Tissue,Cholest Est Tiss-cCnt,1,Cholesterol esterase,CCnt,Pt,Tiss,Qn,,nmol/min/mg protein,CHEM
+CHOLESTEROL,12,24080-4,https://loinc.org/24080-4,ACTIVE,Cholesterol esterase [Enzymatic activity/mass] in Leukocytes,Cholest Est WBC-cCnt,1,Cholesterol esterase,CCnt,Pt,WBC,Qn,,nmol/h/mg protein,CHEM
+CHOLESTEROL,14,14444-4,https://loinc.org/14444-4,ACTIVE,Cholesterol [Mass/volume] in Urine,Cholest Ur-mCnc,1,Cholesterol,MCnc,Pt,Urine,Qn,,mg/dL,CHEM
+CHOLESTEROL,15,9342-7,https://loinc.org/9342-7,ACTIVE,Cholesterol [Percentile],Cholest Prctl SerPl,1,Cholesterol,Prctl,Pt,Ser/Plas,SemiQn,,,CHEM
+CHOLESTEROL,19,70263-9,https://loinc.org/70263-9,ACTIVE,Cholesterol in pericardial fluid/Cholesterol in serum,Chol Pcar/Ser,1,Cholesterol.pericard fld/Cholesterol.serum,RelRto,Pt,Pericard fld+Ser/Plas,Qn,,Ratio,CHEM
+CHOLESTEROL,20,70261-3,https://loinc.org/70261-3,ACTIVE,Cholesterol in peritoneal fluid/Cholesterol in serum,Chol Prt/Ser,1,Cholesterol.periton fld/Cholesterol.serum,RelRto,Pt,Periton fld+Ser/Plas,Qn,,Ratio,CHEM
+CHOLESTEROL,21,70268-8,https://loinc.org/70268-8,ACTIVE,Cholesterol in pleural fluid/Cholesterol in serum,Chol Plr/Ser,1,Cholesterol.plr fld/Cholesterol.serum,RelRto,Pt,Ser/Plas+Plr fld,Qn,,Ratio,CHEM
+CHOLESTEROL,22,16615-7,https://loinc.org/16615-7,ACTIVE,Cholesterol.total/Cholesterol in LDL [Mass Ratio] in Serum or Plasma,Cholest/LDLc SerPl,1,Cholesterol.total/Cholesterol.in LDL,MRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,23,35387-0,https://loinc.org/35387-0,ACTIVE,Cholesterol. in Lipoprotein (a) [Presence] in Serum or Plasma,Lpa Cholest SerPl Ql,1,Cholesterol.in lipoprotein (little a),PrThr,Pt,Ser/Plas,Ord,,,CHEM
+CHOLESTEROL,24,47228-2,https://loinc.org/47228-2,ACTIVE,Cholesterol non HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma,NonHDLc SerPl,1,Cholesterol.non HDL/Cholesterol.total,MRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,25,9322-9,https://loinc.org/9322-9,ACTIVE,Cholesterol.total/Cholesterol in HDL [Percentile],Cholest/HDLc Prctl SerPl,1,Cholesterol.total/Cholesterol.in HDL,Prctl,Pt,Ser/Plas,SemiQn,,,CHEM
+CHOLESTEROL,26,96588-9,https://loinc.org/96588-9,ACTIVE,Cholesterol [Mass/volume] in DBS,Cholest DBS-mCnc,1,Cholesterol,MCnc,Pt,Bld.dot,Qn,,mg/dl,CHEM
+CHOLESTEROL,27,56912-9,https://loinc.org/56912-9,ACTIVE,Cholesterol [Mass/volume] in Pericardial fluid,Cholest Pcar-mCnc,1,Cholesterol,MCnc,Pt,Pericard fld,Qn,,mg/dL,CHEM
+CHOLESTEROL,29,14442-8,https://loinc.org/14442-8,ACTIVE,Cholesterol [Mass/volume] in Semen,Cholest Smn-mCnc,1,Cholesterol,MCnc,Pt,Semen,Qn,,mg/dL,CHEM
+CHOLESTEROL,30,5932-9,https://loinc.org/5932-9,ACTIVE,Cholesterol [Presence] in Blood by Test strip,Cholest Bld Strip,1,Cholesterol,PrThr,Pt,Bld,SemiQn,Test strip,,CHEM
+CHOLESTEROL,31,101339-0,https://loinc.org/101339-0,ACTIVE,Cholesterol [Presence] in Fibroblast by Filipin stain,Cholest Fib Ql Filipin stain,1,Cholesterol,PrThr,Pt,Fibroblasts,Ord,Filipin stain,,PATH
+CHOLESTEROL,32,53082-4,https://loinc.org/53082-4,ACTIVE,Cholesterol [Moles/volume] in Dialysis fluid,Cholest Dial fld-sCnc,1,Cholesterol,SCnc,Pt,Dial fld,Qn,,mmol/L,CHEM
+CHOLESTEROL,33,78518-8,https://loinc.org/78518-8,ACTIVE,Cholesterol [Moles/volume] in Pericardial fluid,Cholest Pcar-sCnc,1,Cholesterol,SCnc,Pt,Pericard fld,Qn,,mmol/L,CHEM
+CHOLESTEROL,34,54371-0,https://loinc.org/54371-0,ACTIVE,Cholesterol [Moles/volume] in Peritoneal fluid,Cholest Prt-sCnc,1,Cholesterol,SCnc,Pt,Periton fld,Qn,,mmol/L,CHEM
+CHOLESTEROL,35,48090-5,https://loinc.org/48090-5,ACTIVE,Cholesterol in HDL/Cholesterol in HDL+VLDL [Molar ratio] in Serum or Plasma,HDLc/HDLc+VLDLc SerPl-sRto,1,Cholesterol.in HDL/Cholesterol.in HDL+Cholesterol.in VLDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+CHOLESTEROL,36,73958-1,https://loinc.org/73958-1,ACTIVE,Cholesterol esterase [Enzymatic activity/volume] in DBS,Cholest Est DBS-cCnc,1,Cholesterol esterase,CCnc,Pt,Bld.dot,Qn,,nmol/h/mL,CHEM
+CHOLESTEROL,37,50194-0,https://loinc.org/50194-0,ACTIVE,Cholesterol in IDL+Cholesterol in VLDL 3 [Mass/volume] in Serum or Plasma,IDLc+VLDL3c SerPl-mCnc,1,Cholesterol.in IDL+Cholesterol.in VLDL 3,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+CHOLESTEROL,38,70202-7,https://loinc.org/70202-7,ACTIVE,Cholesterol in IDL+Cholesterol in VLDL 3 [Moles/volume] in Serum or Plasma,IDLc+VLDL3c SerPl-sCnc,1,Cholesterol.in IDL+Cholesterol.in VLDL 3,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+CHOLESTEROL,39,14155-6,https://loinc.org/14155-6,ACTIVE,Cholesterol in LDL [Percentile],LDLc Prctl SerPl,1,Cholesterol.in LDL,Prctl,Pt,Ser/Plas,SemiQn,,,CHEM
+CHOLESTEROL,40,2095-8,https://loinc.org/2095-8,ACTIVE,Cholesterol in HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma,HDLc SerPl,1,Cholesterol.in HDL/Cholesterol.total,MRto,Pt,Ser/Plas,Qn,,ratio,CHEM
+CHOLESTEROL,41,70200-1,https://loinc.org/70200-1,ACTIVE,Cholesterol in HDL/Cholesterol.total [Molar ratio] in Serum or Plasma,HDLc SerPl-sRto,1,Cholesterol.in HDL/Cholesterol.total,SRto,Pt,Ser/Plas,Qn,,mmol/mol,CHEM
+CHOLESTEROL,42,35388-8,https://loinc.org/35388-8,ACTIVE,Cholesterol. in Lipoprotein (a) [Mass/volume] in Serum or Plasma,Lpa Cholest SerPl-mCnc,1,Cholesterol.in lipoprotein (little a),MCnc,Pt,Ser/Plas,Qn,,mg/mL;mg/dL,CHEM
+CHOLESTEROL,43,74435-9,https://loinc.org/74435-9,ACTIVE,Cholesterol.non-esterified/Cholesterol.total in Serum or Plasma by Gas chromatography,NE Cholest SFr SerPl GC,1,Cholesterol.non-esterified/Cholesterol.total,SFr,Pt,Ser/Plas,Qn,GC,%,CHEM
+CHOLESTEROL,44,14441-0,https://loinc.org/14441-0,ACTIVE,Cholesterol [Mass/volume] in Peritoneal fluid,Cholest Prt-mCnc,1,Cholesterol,MCnc,Pt,Periton fld,Qn,,mg/dL,CHEM
+CHOLESTEROL,45,9618-0,https://loinc.org/9618-0,ACTIVE,Cholesterol [Mass/volume] in Pleural fluid,Cholest Plr-mCnc,1,Cholesterol,MCnc,Pt,Plr fld,Qn,,mg/dL,CHEM
+CHOLESTEROL,47,39468-4,https://loinc.org/39468-4,ACTIVE,Cholesterol [Moles/volume] in Pleural fluid,Cholest Plr-sCnc,1,Cholesterol,SCnc,Pt,Plr fld,Qn,,mmol/L,CHEM
+CHOLESTEROL,48,32308-9,https://loinc.org/32308-9,ACTIVE,Cholesterol [Moles/volume] in Specimen,Cholest Spec-sCnc,1,Cholesterol,SCnc,Pt,XXX,Qn,,mmol/L,CHEM
+CHOLESTEROL,49,14154-9,https://loinc.org/14154-9,ACTIVE,Cholesterol sulfate [Mass/volume] in Serum,Cholest Sulf Ser-mCnc,1,Cholesterol sulfate,MCnc,Pt,Ser,Qn,,ug/dL,CHEM
+CHOLESTEROL,50,54438-7,https://loinc.org/54438-7,ACTIVE,Cholesterol/Total in Stone,Cholest MFr Stone,1,Cholesterol/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+LDL,1,53805-8,https://loinc.org/53805-8,ACTIVE,LDL apheresis procedure [Type],LDL apheresis procedure type,1,LDL apheresis procedure,Type,Pt,^Patient,Nom,,,CHEM
+LDL,2,92717-8,https://loinc.org/92717-8,ACTIVE,Lipoprotein.beta.subparticle.large-a [Moles/volume] in Serum,LDL large-a Ser-sCnc,1,Lipoprotein.beta.subparticle.large-a,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,3,92716-0,https://loinc.org/92716-0,ACTIVE,Lipoprotein.beta.subparticle.large-b [Moles/volume] in Serum,LDL large-b Ser-sCnc,1,Lipoprotein.beta.subparticle.large-b,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,4,53806-6,https://loinc.org/53806-6,ACTIVE,LDL apheresis procedure [Identifier],LDL apheresis procedure ID,1,LDL apheresis procedure,ID,Pt,^Patient,Nom,,,CHEM
+LDL,8,96735-6,https://loinc.org/96735-6,ACTIVE,Lipoprotein.beta.subparticle.medium [Moles/volume] in Serum,LDL med Ser-sCnc,1,Lipoprotein.beta.subparticle.medium,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,9,55440-2,https://loinc.org/55440-2,ACTIVE,Cholesterol.in LDL (real) [Mass/volume] in Serum or Plasma by VAP,LDLc-R SerPl VAP-mCnc,1,Cholesterol.in LDL,MCnc,Pt,Ser/Plas,Qn,VAP,mg/dL,CHEM
+LDL,10,57698-3,https://loinc.org/57698-3,ACTIVE,Lipid panel with direct LDL - Serum or Plasma,Lipid pnl with direct LDL SerPl,1,Lipid panel with direct LDL,-,Pt,Ser/Plas,Qn,,,PANEL.CHEM
+LDL,11,92715-2,https://loinc.org/92715-2,ACTIVE,Lipoprotein.beta.subparticle.very small-a [Moles/volume] in Serum,LDL very small-a Ser-sCnc,1,Lipoprotein.beta.subparticle.very small-a,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,12,92714-5,https://loinc.org/92714-5,ACTIVE,Lipoprotein.beta.subparticle.very small-b [Moles/volume] in Serum,LDL very small-b Ser-sCnc,1,Lipoprotein.beta.subparticle.very small-b,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,13,92713-7,https://loinc.org/92713-7,ACTIVE,Lipoprotein.beta.subparticle.very small-c [Moles/volume] in Serum,LDL very small-c Ser-sCnc,1,Lipoprotein.beta.subparticle.very small-c,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,14,3046-0,https://loinc.org/3046-0,ACTIVE,Triglyceride+ester in LDL [Mass/volume] in Serum or Plasma,Trigl+LDL Ester SerPl-mCnc,1,Triglyceride+ester.in LDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,17,43727-7,https://loinc.org/43727-7,ACTIVE,Lipoprotein.beta.subparticle.small [Moles/volume] in Serum or Plasma,LDL Small SerPl-sCnc,1,Lipoprotein.beta.subparticle.small,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+LDL,18,92712-9,https://loinc.org/92712-9,ACTIVE,Lipoprotein.beta.subparticle.very small-d [Moles/volume] in Serum,LDL very small-d Ser-sCnc,1,Lipoprotein.beta.subparticle.very small-d,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+LDL,21,14155-6,https://loinc.org/14155-6,ACTIVE,Cholesterol in LDL [Percentile],LDLc Prctl SerPl,1,Cholesterol.in LDL,Prctl,Pt,Ser/Plas,SemiQn,,,CHEM
+LDL,22,106786-7,https://loinc.org/106786-7,ACTIVE,LDL receptor related protein 4 Ab [Presence] in Serum by Cell binding immunofluorescent assay,LDL rcp rel protein 4 Ab Ser Ql CB IF,1,LDL receptor related protein 4 Ab,PrThr,Pt,Ser,Ord,CBA IFA,,SERO
+LDL,23,54434-6,https://loinc.org/54434-6,ACTIVE,Lipoprotein.beta.subparticle [Moles/volume] in Serum or Plasma,LDL SerPl-sCnc,1,Lipoprotein.beta.subparticle,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+LDL,26,14815-5,https://loinc.org/14815-5,ACTIVE,Lipoprotein.beta [Moles/volume] in Serum or Plasma by calculation,LDL SerPl Calc-sCnc,1,Lipoprotein.beta,SCnc,Pt,Ser/Plas,Qn,Calculated,mmol/L,CHEM
+LDL,27,2089-1,https://loinc.org/2089-1,ACTIVE,Cholesterol in LDL [Mass/volume] in Serum or Plasma,LDLc SerPl-mCnc,1,Cholesterol.in LDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,28,53133-5,https://loinc.org/53133-5,ACTIVE,Cholesterol in LDL [Moles/volume] in Body fluid,LDLc Fld-sCnc,1,Cholesterol.in LDL,SCnc,Pt,Body fld,Qn,,mmol/L,CHEM
+LDL,29,22748-8,https://loinc.org/22748-8,ACTIVE,Cholesterol in LDL [Moles/volume] in Serum or Plasma,LDLc SerPl-sCnc,1,Cholesterol.in LDL,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,30,91105-7,https://loinc.org/91105-7,ACTIVE,Cholesterol in LDL 1 [Mass/volume] in Serum or Plasma,LDL1c SerPl-mCnc,1,Cholesterol.in LDL 1,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,31,91112-3,https://loinc.org/91112-3,ACTIVE,Cholesterol in LDL 1 [Moles/volume] in Serum or Plasma,LDL1c SerPl-sCnc,1,Cholesterol.in LDL 1,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,32,91106-5,https://loinc.org/91106-5,ACTIVE,Cholesterol in LDL 2 [Mass/volume] in Serum or Plasma,LDL2c SerPl-mCnc,1,Cholesterol.in LDL 2,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,33,91113-1,https://loinc.org/91113-1,ACTIVE,Cholesterol in LDL 2 [Moles/volume] in Serum or Plasma,LDL2c SerPl-sCnc,1,Cholesterol.in LDL 2,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,34,91107-3,https://loinc.org/91107-3,ACTIVE,Cholesterol in LDL 3 [Mass/volume] in Serum or Plasma,LDL3c SerPl-mCnc,1,Cholesterol.in LDL 3,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,35,91114-9,https://loinc.org/91114-9,ACTIVE,Cholesterol in LDL 3 [Moles/volume] in Serum or Plasma,LDL3c SerPl-sCnc,1,Cholesterol.in LDL 3,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,36,91108-1,https://loinc.org/91108-1,ACTIVE,Cholesterol in LDL 4 [Mass/volume] in Serum or Plasma,LDL4c SerPl-mCnc,1,Cholesterol.in LDL 4,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,37,91115-6,https://loinc.org/91115-6,ACTIVE,Cholesterol in LDL 4 [Moles/volume] in Serum or Plasma,LDL4c SerPl-sCnc,1,Cholesterol.in LDL 4,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,38,91109-9,https://loinc.org/91109-9,ACTIVE,Cholesterol in LDL 5 [Mass/volume] in Serum or Plasma,LDL5c SerPl-mCnc,1,Cholesterol.in LDL 5,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,39,91116-4,https://loinc.org/91116-4,ACTIVE,Cholesterol in LDL 5 [Moles/volume] in Serum or Plasma,LDL5c SerPl-sCnc,1,Cholesterol.in LDL 5,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,40,91110-7,https://loinc.org/91110-7,ACTIVE,Cholesterol in LDL 6 [Mass/volume] in Serum or Plasma,LDL6c SerPl-mCnc,1,Cholesterol.in LDL 6,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,41,91117-2,https://loinc.org/91117-2,ACTIVE,Cholesterol in LDL 6 [Moles/volume] in Serum or Plasma,LDL6c SerPl-sCnc,1,Cholesterol.in LDL 6,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,42,91111-5,https://loinc.org/91111-5,ACTIVE,Cholesterol in LDL 7 [Mass/volume] in Serum or Plasma,LDL7c SerPl-mCnc,1,Cholesterol.in LDL 7,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+LDL,43,91118-0,https://loinc.org/91118-0,ACTIVE,Cholesterol in LDL 7 [Moles/volume] in Serum or Plasma,LDL7c SerPl-sCnc,1,Cholesterol.in LDL 7,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+LDL,44,48635-7,https://loinc.org/48635-7,ACTIVE,Cholesterol in LDL pattern A [Presence] in Serum or Plasma,LDLc A SerPl Ql,1,Cholesterol.in LDL pattern A,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+LDL,45,14814-8,https://loinc.org/14814-8,ACTIVE,Lipoprotein.beta [Moles/volume] in Serum or Plasma by Electrophoresis,LDL SerPl Elph-sCnc,1,Lipoprotein.beta,SCnc,Pt,Ser/Plas,Qn,Electrophoresis,mmol/L,CHEM
+HDL,1,92711-1,https://loinc.org/92711-1,ACTIVE,Lipoprotein.alpha.subparticle.small [Moles/volume] in Serum,HDL small Ser-sCnc,1,Lipoprotein.alpha.subparticle.small,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+HDL,2,48090-5,https://loinc.org/48090-5,ACTIVE,Cholesterol in HDL/Cholesterol in HDL+VLDL [Molar ratio] in Serum or Plasma,HDLc/HDLc+VLDLc SerPl-sRto,1,Cholesterol.in HDL/Cholesterol.in HDL+Cholesterol.in VLDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+HDL,3,86222-7,https://loinc.org/86222-7,ACTIVE,Lipoprotein.alpha 3 [Moles/volume] in Serum,HDL alpha 3 Ser-sCnc,1,Lipoprotein.alpha 3,SCnc,Pt,Ser,Qn,,nmol/L,CHEM
+HDL,4,3044-5,https://loinc.org/3044-5,ACTIVE,Triglyceride+ester in HDL [Mass/volume] in Serum or Plasma,Trigl+HDL Ester SerPl-mCnc,1,Triglyceride+ester.in HDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,5,54467-6,https://loinc.org/54467-6,ACTIVE,Cholesterol in HDL 2a/Cholesterol in total HDL in Serum or Plasma by Electrophoresis,HDLc 2a MFr SerPl Elph,1,Cholesterol.in HDL 2a/Cholesterol.in HDL.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+HDL,6,54468-4,https://loinc.org/54468-4,ACTIVE,Cholesterol in HDL 2b/Cholesterol in total HDL in Serum or Plasma by Electrophoresis,HDLc 2b MFr SerPl Elph,1,Cholesterol.in HDL 2b/Cholesterol.in HDL.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+HDL,7,54469-2,https://loinc.org/54469-2,ACTIVE,Cholesterol in HDL 3a/Cholesterol in total HDL in Serum or Plasma by Electrophoresis,HDLc 3a MFr SerPl Elph,1,Cholesterol.in HDL 3a/Cholesterol.in HDL.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+HDL,8,54470-0,https://loinc.org/54470-0,ACTIVE,Cholesterol in HDL 3b/Cholesterol in total HDL in Serum or Plasma by Electrophoresis,HDLc 3b MFr SerPl Elph,1,Cholesterol.in HDL 3b/Cholesterol.in HDL.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+HDL,9,54471-8,https://loinc.org/54471-8,ACTIVE,Cholesterol in HDL 3c/Cholesterol in total HDL in Serum or Plasma by Electrophoresis,HDLc 3c MFr SerPl Elph,1,Cholesterol.in HDL 3c/Cholesterol.in HDL.total,MFr,Pt,Ser/Plas,Qn,Electrophoresis,%,CHEM
+HDL,11,49748-7,https://loinc.org/49748-7,ACTIVE,Lipoprotein.alpha [Moles/volume] in Serum or Plasma,HDL SerPl-sCnc,1,Lipoprotein.alpha,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+HDL,12,27340-9,https://loinc.org/27340-9,ACTIVE,Cholesterol in HDL [Presence] in Serum or Plasma,HDLc SerPl Ql,1,Cholesterol.in HDL,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+HDL,13,53135-0,https://loinc.org/53135-0,ACTIVE,Cholesterol in HDL [Moles/volume] in Dialysis fluid,HDLc Dial fld-sCnc,1,Cholesterol.in HDL,SCnc,Pt,Dial fld,Qn,,mmol/L,CHEM
+HDL,14,9322-9,https://loinc.org/9322-9,ACTIVE,Cholesterol.total/Cholesterol in HDL [Percentile],Cholest/HDLc Prctl SerPl,1,Cholesterol.total/Cholesterol.in HDL,Prctl,Pt,Ser/Plas,SemiQn,,,CHEM
+HDL,15,96596-2,https://loinc.org/96596-2,ACTIVE,Cholesterol in HDL [Mass/volume] in DBS,HDLc DBS-mCnc,1,Cholesterol.in HDL,MCnc,Pt,Bld.dot,Qn,,mg/dl,CHEM
+HDL,16,54372-8,https://loinc.org/54372-8,ACTIVE,Cholesterol in HDL [Mass/volume] in Body fluid,HDLc Fld-mCnc,1,Cholesterol.in HDL,MCnc,Pt,Body fld,Qn,,g/L,CHEM
+HDL,17,2085-9,https://loinc.org/2085-9,ACTIVE,Cholesterol in HDL [Mass/volume] in Serum or Plasma,HDLc SerPl-mCnc,1,Cholesterol.in HDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,19,14646-4,https://loinc.org/14646-4,ACTIVE,Cholesterol in HDL [Moles/volume] in Serum or Plasma,HDLc SerPl-sCnc,1,Cholesterol.in HDL,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+HDL,21,50840-8,https://loinc.org/50840-8,ACTIVE,Cholesterol in HDL [Moles/volume] in Body fluid,HDLc Fld-sCnc,1,Cholesterol.in HDL,SCnc,Pt,Body fld,Qn,,mmol/L,CHEM
+HDL,22,9832-7,https://loinc.org/9832-7,ACTIVE,Cholesterol in HDL 2 [Mass/volume] in Serum or Plasma,HDL2c SerPl-mCnc,1,Cholesterol.in HDL 2,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,23,26015-8,https://loinc.org/26015-8,ACTIVE,Cholesterol in HDL 2 [Moles/volume] in Serum or Plasma,HDL2c SerPl-sCnc,1,Cholesterol.in HDL 2,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+HDL,24,57936-7,https://loinc.org/57936-7,ACTIVE,Cholesterol in HDL 2a [Mass/volume] in Serum or Plasma,HDLc 2a SerPl-mCnc,1,Cholesterol.in HDL 2a,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,25,56132-4,https://loinc.org/56132-4,ACTIVE,Cholesterol in HDL 2a [Moles/volume] in Serum or Plasma,HDLc 2a SerPl-sCnc,1,Cholesterol.in HDL 2a,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+HDL,26,56133-2,https://loinc.org/56133-2,ACTIVE,Cholesterol in HDL 2b [Moles/volume] in Serum or Plasma,HDLc 2b SerPl-sCnc,1,Cholesterol.in HDL 2b,SCnc,Pt,Ser/Plas,Qn,,nmol/L,CHEM
+HDL,27,9833-5,https://loinc.org/9833-5,ACTIVE,Cholesterol in HDL 3 [Mass/volume] in Serum or Plasma,HDL3c SerPl-mCnc,1,Cholesterol.in HDL 3,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,29,26017-4,https://loinc.org/26017-4,ACTIVE,Cholesterol in HDL 3 [Moles/volume] in Serum or Plasma,HDL3c SerPl-sCnc,1,Cholesterol.in HDL 3,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+HDL,30,57937-5,https://loinc.org/57937-5,ACTIVE,Cholesterol in HDL 3a [Mass/volume] in Serum or Plasma,HDLc 3a SerPl-mCnc,1,Cholesterol.in HDL 3a,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,31,47220-9,https://loinc.org/47220-9,ACTIVE,Cholesterol in HDL 4+5 [Mass/volume] in Serum or Plasma,HDL4+5c SerPl-mCnc,1,Cholesterol.in HDL 4+5,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,32,96589-7,https://loinc.org/96589-7,ACTIVE,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in DBS,Cholest/HDLc DBS,1,Cholesterol.total/Cholesterol.in HDL,MRto,Pt,Bld.dot,Qn,,ratio,CHEM
+HDL,33,14813-0,https://loinc.org/14813-0,ACTIVE,Lipoprotein.alpha [Moles/volume] in Serum or Plasma by Electrophoresis,HDL SerPl Elph-sCnc,1,Lipoprotein.alpha,SCnc,Pt,Ser/Plas,Qn,Electrophoresis,nmol/L,CHEM
+HDL,34,12772-0,https://loinc.org/12772-0,ACTIVE,Cholesterol in HDL [Units/volume] in Serum or Plasma by Electrophoresis,HDLc SerPl Elph-aCnc,1,Cholesterol.in HDL,ACnc,Pt,Ser/Plas,Qn,Electrophoresis,,CHEM
+HDL,35,49130-8,https://loinc.org/49130-8,ACTIVE,Cholesterol in HDL [Mass/volume] in Serum or Plasma by Electrophoresis,HDLc SerPl Elph-mCnc,1,Cholesterol.in HDL,MCnc,Pt,Ser/Plas,Qn,Electrophoresis,mg/dL,CHEM
+HDL,36,18263-4,https://loinc.org/18263-4,ACTIVE,Cholesterol in HDL [Mass/volume] in Serum or Plasma ultracentrifugate,HDLc SerPl.Ultracent-mCnc,1,Cholesterol.in HDL,MCnc,Pt,Ser/Plas.ultracentrifugate,Qn,,mg/dL,CHEM
+HDL,37,12771-2,https://loinc.org/12771-2,ACTIVE,Cholesterol in HDL [Presence] in Serum or Plasma by Electrophoresis,HDLc SerPl Ql Elph,1,Cholesterol.in HDL,PrThr,Pt,Ser/Plas,Ord,Electrophoresis,,CHEM
+HDL,38,47221-7,https://loinc.org/47221-7,ACTIVE,Cholesterol in HDL 1+2 [Mass/volume] in Serum or Plasma,HDL1+2c SerPl-mCnc,1,Cholesterol.in HDL 1+2,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,39,26016-6,https://loinc.org/26016-6,ACTIVE,Cholesterol in HDL 2 [Mass/volume] in Serum or Plasma ultracentrifugate,HDL2c SerPl.Ultracent-mCnc,1,Cholesterol.in HDL 2,MCnc,Pt,Ser/Plas.ultracentrifugate,Qn,,mg/dL,CHEM
+HDL,40,50409-2,https://loinc.org/50409-2,ACTIVE,Cholesterol in HDL 2+3 [Mass/volume] in Serum or Plasma,HDL2+3c SerPl-mCnc,1,Cholesterol.in HDL 2+3,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+HDL,41,2095-8,https://loinc.org/2095-8,ACTIVE,Cholesterol in HDL/Cholesterol.total [Mass Ratio] in Serum or Plasma,HDLc SerPl,1,Cholesterol.in HDL/Cholesterol.total,MRto,Pt,Ser/Plas,Qn,,ratio,CHEM
+HDL,42,70200-1,https://loinc.org/70200-1,ACTIVE,Cholesterol in HDL/Cholesterol.total [Molar ratio] in Serum or Plasma,HDLc SerPl-sRto,1,Cholesterol.in HDL/Cholesterol.total,SRto,Pt,Ser/Plas,Qn,,mmol/mol,CHEM
+HDL,44,9830-1,https://loinc.org/9830-1,ACTIVE,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,Cholest/HDLc SerPl,1,Cholesterol.total/Cholesterol.in HDL,MRto,Pt,Ser/Plas,Qn,,ratio,CHEM
+HDL,45,32309-7,https://loinc.org/32309-7,ACTIVE,Cholesterol.total/Cholesterol in HDL [Molar ratio] in Serum or Plasma,Cholest/HDLc SerPl-sRto,1,Cholesterol.total/Cholesterol.in HDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+HDL,46,44733-4,https://loinc.org/44733-4,ACTIVE,Triglyceride/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,Trigl/HDLc SerPl,1,Triglyceride/Cholesterol.in HDL,MRto,Pt,Ser/Plas,Qn,,,CHEM
+HDL,47,55607-6,https://loinc.org/55607-6,ACTIVE,Triglyceride/Cholesterol in HDL [Molar ratio] in Serum or Plasma,Trigl/HDLc SerPl-sRto,1,Triglyceride/Cholesterol.in HDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+HDL,48,16616-5,https://loinc.org/16616-5,ACTIVE,Cholesterol in HDL/Cholesterol in LDL [Mass Ratio] in Serum or Plasma,HDLc/LDLc SerPl,1,Cholesterol.in HDL/Cholesterol.in LDL,MRto,Pt,Ser/Plas,Qn,,,CHEM
+HDL,49,11054-4,https://loinc.org/11054-4,ACTIVE,Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,LDLc/HDLc SerPl,1,Cholesterol.in LDL/Cholesterol.in HDL,MRto,Pt,Ser/Plas,Qn,,ratio,CHEM
+HDL,50,44915-7,https://loinc.org/44915-7,ACTIVE,Cholesterol in LDL/Cholesterol in HDL [Molar ratio] in Serum or Plasma,LDLc/HDLc SerPl-sRto,1,Cholesterol.in LDL/Cholesterol.in HDL,SRto,Pt,Ser/Plas,Qn,,,CHEM
+CBC,1,58410-2,https://loinc.org/58410-2,ACTIVE,CBC panel - Blood by Automated count,CBC Pnl Bld Auto,1,Complete blood count panel,-,Pt,Bld,-,Automated count,,PANEL.HEM/BC
+CBC,2,69742-5,https://loinc.org/69742-5,ACTIVE,"CBC W Differential panel, method unspecified - Blood","CBC W Diff pnl,unspecified Bld",1,"Complete blood count W Differential panel, method unspecified",-,Pt,Bld,Qn,,,PANEL.HEM/BC
+CBC,3,57021-8,https://loinc.org/57021-8,ACTIVE,CBC W Auto Differential panel - Blood,CBC W Auto Diff Bld,1,Complete blood count W Auto Differential panel,-,Pt,Bld,Qn,,,PANEL.HEM/BC
+CBC,4,95215-0,https://loinc.org/95215-0,ACTIVE,CBC W Differential panel - Stem cell product,CBC W Diff Pnl Stem prod,1,Complete blood count W Differential panel,-,Pt,^Stem cell product,Qn,,,PANEL.HEM/BC
+CBC,5,74412-8,https://loinc.org/74412-8,ACTIVE,CBC W Differential panel - Cord blood,CBC W Diff Pnl BldCo,1,Complete blood count W Differential panel,-,Pt,BldCo,Qn,,,PANEL.HEM/BC
+CBC,6,47288-6,https://loinc.org/47288-6,ACTIVE,CBC WO Differential panel - Cord blood,CBC WO diff BldCo,1,Complete blood count WO Differential panel,-,Pt,BldCo,Qn,,,PANEL.HEM/BC
+CBC,7,57782-5,https://loinc.org/57782-5,ACTIVE,CBC W Ordered Manual Differential panel - Blood,CBC W ordered manual diff Bld,1,Complete blood count W Ordered Manual Differential panel,-,Pt,Bld,Qn,,,PANEL.HEM/BC
+CBC,8,57022-6,https://loinc.org/57022-6,ACTIVE,CBC W Reflex Manual Differential panel - Blood,CBC W Reflex Manual Diff Bld,1,Complete blood count W Reflex Manual Differential panel,-,Pt,Bld,Qn,,,PANEL.HEM/BC
+CBC,15,55429-5,https://loinc.org/55429-5,ACTIVE,Short blood count panel - Blood,Short blood count Pnl Bld,1,Short blood count panel,-,Pt,Bld,Qn,,,PANEL.HEM/BC
+TOTAL CALCIUM,1,30527-6,https://loinc.org/30527-6,ACTIVE,Calcium [Mass/volume] in Total parental nutrition,Calcium TPN-mCnc,1,Calcium,MCnc,Pt,TPN,Qn,,mg/dL,CHEM
+TOTAL CALCIUM,2,53100-4,https://loinc.org/53100-4,ACTIVE,Calcium [Moles/volume] in Total parental nutrition,Calcium TPN-sCnc,1,Calcium,SCnc,Pt,TPN,Qn,,mmol/L,CHEM
+TOTAL CALCIUM,3,47597-0,https://loinc.org/47597-0,ACTIVE,Calcium [Moles/volume] corrected for total protein in Blood,Calcium TP cor Bld-sCnc,1,Calcium^^corrected for total protein,SCnc,Pt,Bld,Qn,,mmol/L,CHEM
+TOTAL CALCIUM,4,34907-6,https://loinc.org/34907-6,ACTIVE,Calcium [Mass/volume] corrected for total protein in Serum or Plasma,Calcium TP cor SerPl-mCnc,1,Calcium^^corrected for total protein,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TOTAL CALCIUM,6,18281-6,https://loinc.org/18281-6,ACTIVE,Calcium [Moles/volume] corrected for total protein in Serum or Plasma,Calcium TP cor SerPl-sCnc,1,Calcium^^corrected for total protein,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TOTAL CALCIUM,7,63550-8,https://loinc.org/63550-8,ACTIVE,Calcium magnesium phosphate/Total in Stone,Calcium magnesium phosphate MFr Stone,1,Calcium magnesium phosphate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,8,32159-6,https://loinc.org/32159-6,ACTIVE,Carbonated calcium phosphate/Total in Stone,Carb Ca Phos MFr Stone,1,Carbonated calcium phosphate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,9,32137-2,https://loinc.org/32137-2,ACTIVE,Calcium phosphate/Total in Stone,Ca Phos MFr Stone,1,Calcium phosphate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,10,74909-3,https://loinc.org/74909-3,ACTIVE,Calcium oxalate dihydrate/Total in Stone,Calcium Oxalate Dihydrate MFr Stone,1,Calcium oxalate dihydrate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,11,54439-5,https://loinc.org/54439-5,ACTIVE,Calcium bilirubinate/Total in Stone,Ca Bilirub MFr Stone,1,Calcium bilirubinate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,12,49936-8,https://loinc.org/49936-8,ACTIVE,Calcium.ionized/Calcium.total corrected for albumin in Blood,Ca-I Album cor MFr Bld,1,Calcium.ionized/Calcium.total^^corrected for albumin,MFr,Pt,Bld,Qn,,%,CHEM
+TOTAL CALCIUM,13,32156-2,https://loinc.org/32156-2,ACTIVE,Calcium carbonate/Total in Stone,Ca Carbonate MFr Stone,1,Calcium carbonate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,14,32157-0,https://loinc.org/32157-0,ACTIVE,Calcium oxalate/Total in Stone,CaOx MFr Stone,1,Calcium oxalate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,15,49500-2,https://loinc.org/49500-2,ACTIVE,Calcium oxalate dihydrate/Total in Stone by Infrared spectroscopy,Calcium Oxalate Dihydrate MFr Stone IR,1,Calcium oxalate dihydrate/Total,MFr,Pt,Calculus,Qn,Infrared spectroscopy,%,CHEM
+TOTAL CALCIUM,16,49935-0,https://loinc.org/49935-0,ACTIVE,Calcium.ionized/Calcium.total corrected for albumin in Serum or Plasma,Ca-I Album cor MFr SerPl,1,Calcium.ionized/Calcium.total^^corrected for albumin,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+TOTAL CALCIUM,17,40998-7,https://loinc.org/40998-7,ACTIVE,Calcium hydrogen phosphate dihydrate/Total in Stone,Ca H2 Phos dihyd MFr Stone,1,Calcium hydrogen phosphate dihydrate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,18,38252-3,https://loinc.org/38252-3,ACTIVE,Calcium oxalate monohydrate/Total in Stone,COM MFr Stone,1,Calcium oxalate monohydrate/Total,MFr,Pt,Calculus,Qn,,%,CHEM
+TOTAL CALCIUM,19,49501-0,https://loinc.org/49501-0,ACTIVE,Calcium oxalate monohydrate/Total in Stone by Infrared spectroscopy,COM MFr Stone IR,1,Calcium oxalate monohydrate/Total,MFr,Pt,Calculus,Qn,Infrared spectroscopy,%,CHEM
+TOTAL CALCIUM,20,16525-8,https://loinc.org/16525-8,ACTIVE,Calcium/Phosphate [Mass Ratio] in Serum or Plasma,Calcium/Phosphate SerPl,1,Calcium/Phosphate,MRto,Pt,Ser/Plas,Qn,,,CHEM
+TOTAL CALCIUM,21,1380-5,https://loinc.org/1380-5,ACTIVE,Calcium/Phosphate parathyroid-challenge test [Mass Ratio] in Serum,Calcium/Phos PTH Chall Ser,1,Calcium/Phosphate parathyroid-challenge test,MRto,Pt,Ser,Qn,,,CHAL
+TOTAL CALCIUM,22,38254-9,https://loinc.org/38254-9,ACTIVE,Carbonated calcium phosphate [Presence] in Stone,Carb Ca Phos Stone Ql,1,Carbonated calcium phosphate,PrThr,Pt,Calculus,Ord,,,CHEM
+TOTAL CALCIUM,23,40999-5,https://loinc.org/40999-5,ACTIVE,Calcium hydrogen phosphate dihydrate [Mass/time] in 24 hour Urine,Ca H2 Phos dihyd 24h Ur-mRate,1,Calcium hydrogen phosphate dihydrate,MRat,24H,Urine,Qn,,,CHEM
+TOTAL CALCIUM,24,101932-2,https://loinc.org/101932-2,ACTIVE,Calcium hydrogen phosphate dihydrate crystals [Energy Difference] in Urine,Ca H2 Phos dihyd Cry EngDiff Ur,1,Calcium hydrogen phosphate dihydrate crystals,EngDiff,Pt,Urine,Qn,,kJ/mol,CHEM
+TOTAL CALCIUM,25,16266-9,https://loinc.org/16266-9,ACTIVE,Calcium hydrogen phosphate crystals [Presence] in Stone by Infrared spectroscopy,CaHPO4 Cry Stone Ql IR,1,Calcium hydrogen phosphate crystals,PrThr,Pt,Calculus,Ord,Infrared spectroscopy,,CHEM
+TOTAL CALCIUM,26,42673-4,https://loinc.org/42673-4,ACTIVE,Calcium hydrogen phosphate dihydrate [Saturation Fraction] in 24 hour Urine,Ca H2 Phos dihyd 24h SatFr Ur,1,Calcium hydrogen phosphate dihydrate,SatFr,24H,Urine,Qn,,,CHEM
+TOTAL CALCIUM,27,53309-1,https://loinc.org/53309-1,ACTIVE,Calcium phosphate crystals [#/area] in Urine by Computer assisted method,Ca Phos Cry #/area Ur Comp Assist,1,Calcium phosphate crystals,Naric,Pt,Urine,Qn,Computer assisted,,UA
+TOTAL CALCIUM,28,25149-6,https://loinc.org/25149-6,ACTIVE,Calcium phosphate crystals [#/area] in Urine sediment by Microscopy high power field,Ca Phos Cry #/area UrnS HPF,1,Calcium phosphate crystals,Naric,Pt,Urine sed,Qn,Microscopy.light.HPF,/HPF,UA
+TOTAL CALCIUM,29,45388-6,https://loinc.org/45388-6,ACTIVE,Calcium phosphate crystals [#/area] in Urine sediment by Microscopy low power field,Ca Phos Cry #/area UrnS LPF,1,Calcium phosphate crystals,Naric,Pt,Urine sed,Qn,Microscopy.light.LPF,/LPF,UA
+TOTAL CALCIUM,30,16268-5,https://loinc.org/16268-5,ACTIVE,Calcium phosphate crystals [Presence] in Stone by Infrared spectroscopy,Ca Phos Cry Stone Ql IR,1,Calcium phosphate crystals,PrThr,Pt,Calculus,Ord,Infrared spectroscopy,,CHEM
+TOTAL CALCIUM,31,33235-3,https://loinc.org/33235-3,ACTIVE,Calcium phosphate crystals [Presence] in Urine by Computer assisted method,Ca Phos Cry Ur Ql Comp Assist,1,Calcium phosphate crystals,PrThr,Pt,Urine,Ord,Computer assisted,,UA
+TOTAL CALCIUM,32,5775-2,https://loinc.org/5775-2,ACTIVE,Calcium phosphate crystals [Presence] in Urine sediment by Light microscopy,Ca Phos Cry UrnS Ql Micro,1,Calcium phosphate crystals,PrThr,Pt,Urine sed,Ord,Microscopy.light,,UA
+TOTAL CALCIUM,33,55178-8,https://loinc.org/55178-8,ACTIVE,Calcium phosphate crystals [Presence] in Specimen by Light microscopy,Ca Phos Cry Spec Ql Micro,1,Calcium phosphate crystals,PrThr,Pt,XXX,Ord,Microscopy.light,,UA
+TOTAL CALCIUM,34,53299-4,https://loinc.org/53299-4,ACTIVE,Calcium phosphate crystals [#/volume] in Urine by Computer assisted method,Ca Phos Cry # Ur Comp Assist,1,Calcium phosphate crystals,NCnc,Pt,Urine,Qn,Computer assisted,/uL,UA
+TOTAL CALCIUM,35,59276-6,https://loinc.org/59276-6,ACTIVE,Calcium hydrogen phosphate dihydrate crystals [Presence] in Stone by X-ray diffraction,Ca H2 Phos dihyd Cry Stone Ql XR diff,1,Calcium hydrogen phosphate dihydrate crystals,PrThr,Pt,Calculus,Ord,XR diffraction,,CHEM
+TOTAL CALCIUM,36,12512-0,https://loinc.org/12512-0,ACTIVE,Calcium hydrogen phosphate dihydrate crystals [Presence] in Urine sediment by Light microscopy,Ca H2 Phos dihyd Cry UrnS Ql Micro,1,Calcium hydrogen phosphate dihydrate crystals,PrThr,Pt,Urine sed,Ord,Microscopy.light,,UA
+TOTAL CALCIUM,37,90422-7,https://loinc.org/90422-7,ACTIVE,TACI cells/Cells.CD19 in Blood,TACI cells/Cells.CD19 NFr Bld,1,Cells.TACI/Cells.CD19,NFr,Pt,Bld,Qn,,%,CELLMARK
+TRIGLYCERIDES,2,30570-6,https://loinc.org/30570-6,ACTIVE,Triglyceride [Percentile],Trigl Prctl SerPl,1,Triglyceride,Prctl,Pt,Ser/Plas,SemiQn,,%,CHEM
+TRIGLYCERIDES,3,59572-8,https://loinc.org/59572-8,ACTIVE,Triglyceride [Moles/volume] in Urine,Trigl Ur-sCnc,1,Triglyceride,SCnc,Pt,Urine,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,4,3043-7,https://loinc.org/3043-7,ACTIVE,Triglyceride [Mass/volume] in Blood,Trigl Bld-mCnc,1,Triglyceride,MCnc,Pt,Bld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,6,14450-1,https://loinc.org/14450-1,ACTIVE,Triglyceride [Mass/volume] in Urine,Trigl Ur-mCnc,1,Triglyceride,MCnc,Pt,Urine,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,7,70218-3,https://loinc.org/70218-3,ACTIVE,Triglyceride [Moles/volume] in Blood,Trigl Bld-sCnc,1,Triglyceride,SCnc,Pt,Bld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,8,59571-0,https://loinc.org/59571-0,ACTIVE,Triglyceride [Moles/time] in 24 hour Urine,Trigl 24h Ur-sRate,1,Triglyceride,SRat,24H,Urine,Qn,,mmol/D,CHEM
+TRIGLYCERIDES,10,14445-1,https://loinc.org/14445-1,ACTIVE,Triglyceride [Mass/volume] in Amniotic fluid,Trigl Amn-mCnc,1,Triglyceride,MCnc,Pt,Amnio fld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,11,14447-7,https://loinc.org/14447-7,ACTIVE,Triglyceride [Mass/volume] in Peritoneal fluid,Trigl Prt-mCnc,1,Triglyceride,MCnc,Pt,Periton fld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,12,9619-8,https://loinc.org/9619-8,ACTIVE,Triglyceride [Mass/volume] in Pleural fluid,Trigl Plr-mCnc,1,Triglyceride,MCnc,Pt,Plr fld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,13,14448-5,https://loinc.org/14448-5,ACTIVE,Triglyceride [Mass/volume] in Semen,Trigl Smn-mCnc,1,Triglyceride,MCnc,Pt,Semen,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,14,77360-6,https://loinc.org/77360-6,ACTIVE,Triglyceride [Mass/mass] in 24 hour Stool,Trigl 24h Stl-mCnt,1,Triglyceride,MCnt,24H,Stool,Qn,,g/kg,CHEM
+TRIGLYCERIDES,15,69947-0,https://loinc.org/69947-0,ACTIVE,Triglyceride [Moles/volume] in Pericardial fluid,Trigl Pcar-sCnc,1,Triglyceride,SCnc,Pt,Pericard fld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,16,39801-6,https://loinc.org/39801-6,ACTIVE,Triglyceride [Moles/volume] in Pleural fluid,Trigl Plr-sCnc,1,Triglyceride,SCnc,Pt,Plr fld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,17,22731-4,https://loinc.org/22731-4,ACTIVE,Triglyceride [Moles/volume] in Specimen,Trigl Spec-sCnc,1,Triglyceride,SCnc,Pt,XXX,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,19,96598-8,https://loinc.org/96598-8,ACTIVE,Triglyceride [Mass/volume] in DBS,Trigl DBS-mCnc,1,Triglyceride,MCnc,Pt,Bld.dot,Qn,,mg/dl,CHEM
+TRIGLYCERIDES,20,12228-3,https://loinc.org/12228-3,ACTIVE,Triglyceride [Mass/volume] in Body fluid,Trigl Fld-mCnc,1,Triglyceride,MCnc,Pt,Body fld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,21,14446-9,https://loinc.org/14446-9,ACTIVE,Triglyceride [Mass/volume] in Cerebral spinal fluid,Trigl CSF-mCnc,1,Triglyceride,MCnc,Pt,CSF,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,22,59036-4,https://loinc.org/59036-4,ACTIVE,Triglyceride [Mass/volume] in Peritoneal dialysis fluid,Trigl DiafP-mCnc,1,Triglyceride,MCnc,Pt,Dial fld prt,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,23,77361-4,https://loinc.org/77361-4,ACTIVE,Triglyceride [Mass/time] in 24 hour Stool,Trigl 24h Stl-mRate,1,Triglyceride,MRat,24H,Stool,Qn,,g/24 H,CHEM
+TRIGLYCERIDES,25,28554-4,https://loinc.org/28554-4,ACTIVE,Triglyceride [Presence] in Serum or Plasma,Trigl SerPl Ql,1,Triglyceride,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+TRIGLYCERIDES,26,29766-3,https://loinc.org/29766-3,ACTIVE,Triglyceride [Moles/volume] in Body fluid,Trigl Fld-sCnc,1,Triglyceride,SCnc,Pt,Body fld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,27,66769-1,https://loinc.org/66769-1,ACTIVE,Triglyceride [Moles/volume] in Peritoneal fluid,Trigl Prt-sCnc,1,Triglyceride,SCnc,Pt,Periton fld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,28,14927-8,https://loinc.org/14927-8,ACTIVE,Triglyceride [Moles/volume] in Serum or Plasma,Trigl SerPl-sCnc,1,Triglyceride,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,31,2571-8,https://loinc.org/2571-8,ACTIVE,Triglyceride [Mass/volume] in Serum or Plasma,Trigl SerPl-mCnc,1,Triglyceride,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,32,14449-3,https://loinc.org/14449-3,ACTIVE,Triglyceride [Mass/volume] in Synovial fluid,Trigl Snv-mCnc,1,Triglyceride,MCnc,Pt,Synv fld,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,33,51605-4,https://loinc.org/51605-4,ACTIVE,Triglyceride [Moles/volume] in Synovial fluid,Trigl Snv-sCnc,1,Triglyceride,SCnc,Pt,Synv fld,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,34,12951-0,https://loinc.org/12951-0,ACTIVE,Triglyceride [Mass/volume] in Serum or Plasma by calculation,Trigl SerPl Calc-mCnc,1,Triglyceride,MCnc,Pt,Ser/Plas,Qn,Calculated,mg/dL,CHEM
+TRIGLYCERIDES,35,94865-3,https://loinc.org/94865-3,ACTIVE,Triglyceride [Mass/volume] corrected for glycerol in Serum,Trigl Glycer cor Ser-mCnc,1,Triglyceride^^corrected for glycerol,MCnc,Pt,Ser,Qn,,mg/dl,CHEM
+TRIGLYCERIDES,37,94859-6,https://loinc.org/94859-6,ACTIVE,Glycerol and glycerol-corrected triglyceride panel - Serum or Plasma,Glycerol + glycerol corr TG Pnl SerPl,1,Glycerol & Glycerol-corrected triglyceride panel,-,Pt,Ser/Plas,-,,,PANEL.CHEM
+TRIGLYCERIDES,38,95808-2,https://loinc.org/95808-2,ACTIVE,Cholesterol and triglyceride and chylomicrons panel - Urine,Cholest+triglyceride+chylomicrons Pnl Ur,1,Cholesterol & triglyceride & chylomicrons panel,-,Pt,Urine,-,,,PANEL.CHEM
+TRIGLYCERIDES,39,53526-0,https://loinc.org/53526-0,ACTIVE,Triglyceride in VLDL [Moles/volume] in Serum or Plasma,Trigl in VLDL SerPl-sCnc,1,Triglyceride.in VLDL,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,40,3044-5,https://loinc.org/3044-5,ACTIVE,Triglyceride+ester in HDL [Mass/volume] in Serum or Plasma,Trigl+HDL Ester SerPl-mCnc,1,Triglyceride+ester.in HDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,41,3045-2,https://loinc.org/3045-2,ACTIVE,Triglyceride+ester in IDL [Mass/volume] in Serum or Plasma,Trigl+IDL Ester SerPl-mCnc,1,Triglyceride+ester.in IDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,42,3046-0,https://loinc.org/3046-0,ACTIVE,Triglyceride+ester in LDL [Mass/volume] in Serum or Plasma,Trigl+LDL Ester SerPl-mCnc,1,Triglyceride+ester.in LDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,43,3047-8,https://loinc.org/3047-8,ACTIVE,Triglyceride+ester in VLDL [Mass/volume] in Serum or Plasma,Trigl+VLDL Ester SerPl-mCnc,1,Triglyceride+ester.in VLDL,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,44,78361-3,https://loinc.org/78361-3,ACTIVE,Fatty acid and triglyceride panel - 24 hour Stool,Fatty acid + triglyceride Pnl 24h Stl,1,Fatty acid & triglyceride panel,-,24H,Stool,Qn,,,PANEL.CHEM
+TRIGLYCERIDES,45,2096-6,https://loinc.org/2096-6,ACTIVE,Cholesterol/Triglyceride [Mass Ratio] in Serum or Plasma,Cholest/Trigl SerPl,1,Cholesterol/Triglyceride,MRto,Pt,Ser/Plas,Qn,,,CHEM
+TRIGLYCERIDES,46,35363-1,https://loinc.org/35363-1,ACTIVE,Triglyceride in Chylomicrons [Mass/volume] in Serum or Plasma,Trig in Chylo SerPl-mCnc,1,Triglyceride.in chylomicrons,MCnc,Pt,Ser/Plas,Qn,,mg/dL,CHEM
+TRIGLYCERIDES,47,35362-3,https://loinc.org/35362-3,ACTIVE,Triglyceride in Chylomicrons [Presence] in Serum or Plasma,Trig in Chylo SerPl Ql,1,Triglyceride.in chylomicrons,PrThr,Pt,Ser/Plas,Ord,,,CHEM
+TRIGLYCERIDES,48,53527-8,https://loinc.org/53527-8,ACTIVE,Triglyceride in HDL 2 [Moles/volume] in Serum or Plasma,Trigl in HDL2 SerPl-sCnc,1,Triglyceride.in HDL 2,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,49,53528-6,https://loinc.org/53528-6,ACTIVE,Triglyceride in HDL 3 [Moles/volume] in Serum or Plasma,Trigl in HDL3 SerPl-sCnc,1,Triglyceride.in HDL 3,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+TRIGLYCERIDES,50,47210-0,https://loinc.org/47210-0,ACTIVE,Triglyceride [Moles/volume] in Serum or Plasma --fasting,Trigl p fast SerPl-sCnc,1,Triglyceride^post CFst,SCnc,Pt,Ser/Plas,Qn,,mmol/L,CHEM
+CREATININE,1,39802-4,https://loinc.org/39802-4,ACTIVE,Creatinine in dialysis fluid/Creatinine in serum or plasma,Creat diaf/SerPl,1,Creatinine dial fld/Creatinine ser_plas,RelRto,Pt,Dial fld+Ser/Plas,Qn,,mol/mol,CHEM
+CREATININE,3,44909-0,https://loinc.org/44909-0,ACTIVE,5-Hydroxyindoleacetate and Creatinine [Interpretation] in Urine,5HIAA & Creatinine Ur-Imp,1,5-Hydroxyindoleacetate & Creatinine,Imp,Pt,Urine,Nom,,,CHEM
+CREATININE,6,70266-2,https://loinc.org/70266-2,ACTIVE,Creatinine in peritoneal fluid/Creatinine in serum,Creat Prt/Ser,1,Creatinine.periton fld/Creatinine.serum,RelRto,Pt,Periton fld+Ser/Plas,Qn,,Ratio,CHEM
+CREATININE,7,70264-7,https://loinc.org/70264-7,ACTIVE,Creatinine in pleural fluid/Creatinine in serum,Creat Plr/Ser,1,Creatinine.plr fld/Creatinine.serum,RelRto,Pt,Ser/Plas+Plr fld,Qn,,Ratio,CHEM
+CREATININE,8,59834-2,https://loinc.org/59834-2,ACTIVE,Creatinine reduction ratio in Serum or Plasma,Creatinine reduction ratio MFr SerPl,1,Creatinine reduction ratio,MFr,Pt,Ser/Plas,Qn,,%,CHEM
+CREATININE,10,45066-8,https://loinc.org/45066-8,ACTIVE,"Creatinine and Glomerular filtration rate.predicted panel - Serum, Plasma or Blood",Creatinine + eGFR Pnl SerPlBld,1,Creatinine & Glomerular filtration rate.predicted panel,-,Pt,Ser/Plas/Bld,Qn,,,PANEL.CHEM
+CREATININE,11,20511-2,https://loinc.org/20511-2,ACTIVE,Creatinine [Interpretation] in Urine,Creat Ur-Imp,1,Creatinine,Imp,Pt,Urine,Nom,,,CHEM
+CREATININE,12,59826-8,https://loinc.org/59826-8,ACTIVE,Creatinine [Moles/volume] in Blood,Creat Bld-sCnc,1,Creatinine,SCnc,Pt,Bld,Qn,,umol/L,CHEM
+CREATININE,13,14683-7,https://loinc.org/14683-7,ACTIVE,Creatinine [Moles/volume] in Urine,Creat Ur-sCnc,1,Creatinine,SCnc,Pt,Urine,Qn,,mmol/L,CHEM
+CREATININE,14,99384-0,https://loinc.org/99384-0,ACTIVE,Creatinine [Moles/time] in 6 hour Urine,Creat 6h Ur-sRate,1,Creatinine,SRat,6H,Urine,Qn,,mmol/6h,CHEM
+CREATININE,15,93736-7,https://loinc.org/93736-7,ACTIVE,Creatinine panel - 5 hour Urine,Creat Pnl Ur,1,Creatinine panel,-,5H,Urine,-,,,PANEL.CHEM
+CREATININE,16,28599-9,https://loinc.org/28599-9,ACTIVE,Cystathionine/Creatinine [Ratio] in Urine,Cystathionin/Creat Ur-Rto,1,Cystathionine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,17,30062-4,https://loinc.org/30062-4,ACTIVE,Arginine/Creatinine [Ratio] in Urine,Arginine/Creat Ur-Rto,1,Arginine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,18,30066-5,https://loinc.org/30066-5,ACTIVE,Glycine/Creatinine [Ratio] in Urine,Glycine/Creat Ur-Rto,1,Glycine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,19,17866-5,https://loinc.org/17866-5,ACTIVE,Carnitine/Creatinine [Ratio] in Urine,Carnitine/Creat Ur-Rto,1,Carnitine/Creatinine,Ratio,Pt,Urine,Qn,,,CHEM
+CREATININE,20,28597-3,https://loinc.org/28597-3,ACTIVE,Carnosine/Creatinine [Ratio] in Urine,Carnosine/Creat Ur-Rto,1,Carnosine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,21,28603-9,https://loinc.org/28603-9,ACTIVE,Asparagine/Creatinine [Ratio] in Urine,Asparagine/Creat Ur-Rto,1,Asparagine/Creatinine,Ratio,Pt,Urine,Qn,,uM/gCR; umol/g,CHEM
+CREATININE,22,30067-3,https://loinc.org/30067-3,ACTIVE,Proline/Creatinine [Ratio] in Urine,Proline/Creat Ur-Rto,1,Proline/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,23,30049-1,https://loinc.org/30049-1,ACTIVE,Ornithine/Creatinine [Ratio] in Urine,Ornithine/Creat Ur-Rto,1,Ornithine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,24,32262-8,https://loinc.org/32262-8,ACTIVE,Orotate/Creatinine [Ratio] in Urine,Orotate/Creat Ur-Rto,1,Orotate/Creatinine,Ratio,Pt,Urine,Qn,,nmol/mg creatinine,CHEM
+CREATININE,25,43221-1,https://loinc.org/43221-1,ACTIVE,Chloride/Creatinine [Ratio] in Urine,Chloride/Creat Ur-Rto,1,Chloride/Creatinine,Ratio,Pt,Urine,Qn,,mmol/g creatinine,CHEM
+CREATININE,26,30161-4,https://loinc.org/30161-4,ACTIVE,Citrulline/Creatinine [Ratio] in Urine,Citrulline/Creat Ur-Rto,1,Citrulline/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,27,30052-5,https://loinc.org/30052-5,ACTIVE,Isoleucine/Creatinine [Ratio] in Urine,Isoleucine/Creat Ur-Rto,1,Isoleucine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,28,43577-6,https://loinc.org/43577-6,ACTIVE,Histamine/Creatinine [Ratio] in Urine,Histamine/Creat Ur-Rto,1,Histamine/Creatinine,Ratio,Pt,Urine,Qn,,nmol/g creatinine,CHEM
+CREATININE,29,30063-2,https://loinc.org/30063-2,ACTIVE,Methionine/Creatinine [Ratio] in Urine,Methionine/Creat Ur-Rto,1,Methionine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,30,30058-2,https://loinc.org/30058-2,ACTIVE,Serine/Creatinine [Ratio] in Urine,Serine/Creat Ur-Rto,1,Serine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,31,34526-4,https://loinc.org/34526-4,ACTIVE,Sialooligosaccharides/Creatinine [Ratio] in Urine,Sialooligosacch/Creat Ur-Rto,1,Sialooligosaccharides/Creatinine,Ratio,Pt,Urine,Qn,,nmol/mg creatinine,CHEM
+CREATININE,32,43223-7,https://loinc.org/43223-7,ACTIVE,Sodium/Creatinine [Ratio] in Urine,Sodium/Creat Ur-Rto,1,Sodium/Creatinine,Ratio,Pt,Urine,Qn,,mmol/g creatinine,CHEM
+CREATININE,33,28610-4,https://loinc.org/28610-4,ACTIVE,Sarcosine/Creatinine [Ratio] in Urine,Sarcosine/Creat Ur-Rto,1,Sarcosine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,34,30056-6,https://loinc.org/30056-6,ACTIVE,Glutamine/Creatinine [Ratio] in Urine,Glutamine/Creat Ur-Rto,1,Glutamine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,35,28605-4,https://loinc.org/28605-4,ACTIVE,Ethanolamine/Creatinine [Ratio] in Urine,Ethanolamine/Creat Ur-Rto,1,Ethanolamine/Creatinine,Ratio,Pt,Urine,Qn,,nmol/mg creatinine,CHEM
+CREATININE,36,30053-3,https://loinc.org/30053-3,ACTIVE,Leucine/Creatinine [Ratio] in Urine,Leucine/Creat Ur-Rto,1,Leucine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,37,30055-8,https://loinc.org/30055-8,ACTIVE,Phenylalanine/Creatinine [Ratio] in Urine,Phe/Creat Ur-Rto,1,Phenylalanine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,38,28604-7,https://loinc.org/28604-7,ACTIVE,Phosphoethanolamine/Creatinine [Ratio] in Urine,PETN/Creat Ur-Rto,1,Phosphoethanolamine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,39,28600-5,https://loinc.org/28600-5,ACTIVE,Phosphoserine/Creatinine [Ratio] in Urine,Phosphoserine/Creat Ur-Rto,1,Phosphoserine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,40,34366-5,https://loinc.org/34366-5,ACTIVE,Protein/Creatinine [Ratio] in Urine,Prot/Creat Ur-Rto,1,Protein/Creatinine,Ratio,Pt,Urine,Qn,,g/mmol creatinine,CHEM
+CREATININE,41,34168-5,https://loinc.org/34168-5,ACTIVE,Sulfocysteine/Creatinine [Ratio] in Urine,Sulfocysteine/Creat Ur-Rto,1,Sulfocysteine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,42,28595-7,https://loinc.org/28595-7,ACTIVE,Taurine/Creatinine [Ratio] in Urine,Taurine/Creat Ur-Rto,1,Taurine/Creatinine,Ratio,Pt,Urine,Qn,,uM/gCR; umol/g,CHEM
+CREATININE,43,32274-3,https://loinc.org/32274-3,ACTIVE,Thiosulfate/Creatinine [Ratio] in Urine,Thiosulfate/Creat Ur-Rto,1,Thiosulfate/Creatinine,Ratio,Pt,Urine,Qn,,mmol/mg creatinine,CHEM
+CREATININE,44,30057-4,https://loinc.org/30057-4,ACTIVE,Threonine/Creatinine [Ratio] in Urine,Threonine/Creat Ur-Rto,1,Threonine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,45,30054-1,https://loinc.org/30054-1,ACTIVE,Tyrosine/Creatinine [Ratio] in Urine,Tyrosine/Creat Ur-Rto,1,Tyrosine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,46,40487-1,https://loinc.org/40487-1,ACTIVE,Urea/Creatinine [Ratio] in Urine,Urea/Creat Ur-Rto,1,Urea/Creatinine,Ratio,Pt,Urine,Qn,,mmol/g creatinine,CHEM
+CREATININE,47,30064-0,https://loinc.org/30064-0,ACTIVE,Valine/Creatinine [Ratio] in Urine,Valine/Creat Ur-Rto,1,Valine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
+CREATININE,48,11145-0,https://loinc.org/11145-0,ACTIVE,5-Hydroxyindoleacetate/Creatinine [Mass Ratio] in Urine,5OH-indoleacetate/Creat Ur,1,5-Hydroxyindoleacetate/Creatinine,MRto,Pt,Urine,Qn,,mg/g creatinine,CHEM
+CREATININE,49,29520-4,https://loinc.org/29520-4,ACTIVE,5-Hydroxyindoleacetate/Creatinine [Molar ratio] in Urine,5OH-indoleacetate/Creat Ur-sRto,1,5-Hydroxyindoleacetate/Creatinine,SRto,Pt,Urine,Qn,,mmol/mol creatinine,CHEM
+CREATININE,50,28606-2,https://loinc.org/28606-2,ACTIVE,1-Methylhistidine/Creatinine [Ratio] in Urine,1Me-hist/Creat Ur-Rto,1,1-Methylhistidine/Creatinine,Ratio,Pt,Urine,Qn,,umol/g creatinine,CHEM
